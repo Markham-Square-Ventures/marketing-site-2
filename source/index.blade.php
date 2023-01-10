@@ -57,7 +57,7 @@
             <img src="/assets/images/fanxp-logo.svg" alt="Abaxx's logo" class="h-10">
             <img src="/assets/images/web-team-logo.svg" alt="Abaxx's logo" class="h-8">
         </section>
-        <section class="py-32">
+        <section class="pt-32 pb-16">
             <div class="px-6 lg:px-14 lg:max-w-7xl lg:mx-auto">
                 <h2 class="text-12 lg:text-24 font-primary font-black text-center relative leading-[100%] text-gray-900">
                     What we do
@@ -70,9 +70,8 @@
                     products.
                 </p>
             </div>
-            <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-2xl lg:mx-auto mt-24 border-2 border-orange-200">
-                <div class="p-6 bg-orange-50 border-orange-200 md:border-r-2">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-24 border-2 border-orange-200">
+                <div class="p-6 lg:p-10 bg-orange-50 border-orange-200 md:border-r-2">
                     <h3 class="font-primary text-gray-900 font-bold text-8">Websites</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Content strategy</li>
@@ -83,7 +82,7 @@
                         <li class="text-5 font-secondary text-gray-700">CMS integrations & development</li>
                     </ul>
                 </div>
-                <div class="p-6 bg-orange-50 border-orange-200 lg:border-r-2 border-t-2 md:border-t-0">
+                <div class="p-6 lg:p-10 bg-orange-50 border-orange-200 lg:border-r-2 border-t-2 md:border-t-0">
                     <h3 class="font-primary text-gray-900 font-bold text-8">MVPs</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">User & market research</li>
@@ -94,7 +93,7 @@
                         <li class="text-5 font-secondary text-gray-700">Low code & custom development</li>
                     </ul>
                 </div>
-                <div class="p-6 bg-orange-50 border-orange-200 md:border-r-2 border-t-2 lg:border-t-0">
+                <div class="p-6 lg:p-10 bg-orange-50 border-orange-200 md:border-r-2 border-t-2 lg:border-t-0">
                     <h3 class="font-primary text-gray-900 font-bold text-8">Automation</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Process audits</li>
@@ -105,7 +104,7 @@
                         <li class="text-5 font-secondary text-gray-700">Custom solutions</li>
                     </ul>
                 </div>
-                <div class="p-6 bg-orange-50 border-orange-200 border-t-2 lg:border-t-0">
+                <div class="p-6 lg:p-10 bg-orange-50 border-orange-200 border-t-2 lg:border-t-0">
                     <h3 class="font-primary text-gray-900 font-bold text-8">More</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Product analytics & data</li>
@@ -115,6 +114,30 @@
                         <li class="text-5 font-secondary text-gray-700 mb-2">Product team coaching</li>
                         <li class="text-5 font-secondary text-orange-500">Need something else? Let's talk!</li>
                     </ul>
+                </div>
+            </div>
+        </section>
+        <section class="flex justify-center items-center pb-32 px-6 lg:px-14">
+            <div class="max-w-6xl">
+                <img src="/assets/images/quotes.svg"
+                    class="w-28 lg:w-40 -translate-x-12 translate-y-14 lg:translate-y-20 z-0 relative"
+                    alt="Stylized quotation marks">
+                <p class="font-primary text-gray-900 text-6 lg:text-10 leading-relaxed z-10 relative">
+                    <span class="font-black">Nick and Matt are internally referred to by our team as “the
+                        magicians”.</span>
+                    We came to them with the task of building an aesthetically-driven, design-forward, functional site. They
+                    took our ideas, built-upon them, and
+                    translated them into a rad digital experience. Nick and Matt anticipated our needs and were incredibly
+                    supportive and trustworthy partners through the entirety of the process. They are a one stop shop for
+                    impeccable design, logic, and execution.
+                </p>
+                <div class="flex gap-8 items-center mt-8">
+                    <img src="/assets/images/jenna.jpg" alt="An photo of Jenna Constantino."
+                        class="w-32 shadow-outline-orange">
+                    <div>
+                        <h4 class="font-secondary text-gray-900 font-semibold text-8">Jenna Constantino</h4>
+                        <p class="font-secondary text-gray-700 text-6">The Lynden Lane Co.</p>
+                    </div>
                 </div>
             </div>
         </section>

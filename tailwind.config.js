@@ -44,6 +44,9 @@ module.exports = {
       backgroundImage: {
         "hero-gradient": "linear-gradient(180deg, #FFEDE5 0%, #FFFFFF 77.05%)",
       },
+      boxShadow: {
+        "outline-orange": "-8px 8px 0 0 #FFC2A6",
+      },
     },
   },
   plugins: [
