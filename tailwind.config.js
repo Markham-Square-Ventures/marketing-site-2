@@ -1,3 +1,5 @@
+const plugin = require("tailwindcss/plugin");
+
 module.exports = {
   content: require("fast-glob").sync(
     [
@@ -7,9 +9,22 @@ module.exports = {
     { dot: true }
   ),
   theme: {
+    fontSize: {
+      4: "1rem",
+      5: "1.25rem",
+      6: "1.5rem",
+      8: "2rem",
+      10: "2.5rem",
+      12: "3rem",
+      16: "4rem",
+      20: "5rem",
+      24: "6rem",
+      30: "7.5rem",
+    },
     extend: {
       fontFamily: {
-        sans: ["Gilmer", "sans-serif"],
+        primary: ["Gilmer", "sans-serif"],
+        secondary: ["Figtree", "sans-serif"],
       },
       colors: {
         orange: {
@@ -19,13 +34,32 @@ module.exports = {
           300: "#FFC2A6",
           400: "#FF7B39",
           500: "#FF5200",
+          600: "#D44F10",
         },
         gray: {
           700: "#5C5553",
           900: "#332A26",
         },
       },
+      backgroundImage: {
+        "hero-gradient": "linear-gradient(180deg, #FFEDE5 0%, #FFFFFF 77.05%)",
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addComponents, theme }) {
+      addComponents({
+        ".transition-fast": {
+          transitionProperty: theme("transitionProperty.all"),
+          transitionDuration: theme("transitionDuration.100"),
+          transitionTimingFunction: theme("transitionTimingFunction.in-out"),
+        },
+        ".transition-slow": {
+          transitionProperty: theme("transitionProperty.all"),
+          transitionDuration: theme("transitionDuration.300"),
+          transitionTimingFunction: theme("transitionTimingFunction.in-out"),
+        },
+      });
+    }),
+  ],
 };
