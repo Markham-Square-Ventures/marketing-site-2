@@ -5,7 +5,7 @@
         <header class="pt-6 lg:pt-10 px-6 lg:px-14 z-10 relative">
             <nav class="flex flex-col lg:flex-row justify-between items-center">
                 <a href="/">
-                    <img src="/assets/images/logo.svg" alt="The Markham Square logo" class="h-12 lg:h-20">
+                    <img src="/assets/images/mksq-logo.svg" alt="The Markham Square logo" class="h-12 lg:h-20">
                 </a>
                 <ul class="font-secondary flex justify-between lg:justify-end w-full mt-6 lg:mt-0">
                     <li>
@@ -36,12 +36,25 @@
                 </p>
             </div>
         </header>
-        <img src="/assets/images/lines.png" alt="" class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto">
+        <img src="/assets/images/lines.png" alt="Background lines"
+            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto">
         <section
             class="pb-20 px-6 lg:px-14 flex lg:grid grid-cols-3 gap-4 lg:gap-8 lg:max-w-screen-2xl lg:mx-auto mt-20 overflow-y-scroll z-10 relative">
-            <img src="/assets/images/fan-xp.jpg" class="min-w-[320px] min-h-[320px]" alt="">
-            <img src="/assets/images/lynden-lane.jpg" class="min-w-[320px] min-h-[320px]" alt="">
-            <img src="/assets/images/ewc.jpg" class="min-w-[320px] min-h-[320px]" alt="">
+            <img src="/assets/images/fanxp-case-study.jpg" class="min-w-[320px] min-h-[320px]"
+                alt="Higlighted assets created for FanXP by Markham Square.">
+            <img src="/assets/images/lynden-case-study.jpg" class="min-w-[320px] min-h-[320px]"
+                alt="Higlighted assets created for Lynden Lane by Markham Square.">
+            <img src="/assets/images/ewc-case-study.jpg" class="min-w-[320px] min-h-[320px]"
+                alt="Higlighted assets created for European Watch Company by Markham Square.">
         </section>
     </div>
+    <main>
+        <section class="py-6 px-6 lg:px-14 bg-orange-400 flex items-center lg:justify-center gap-12 overflow-y-scroll">
+            <img src="/assets/images/abaxx-logo.svg" alt="Abaxx's logo" class="h-8">
+            <img src="/assets/images/lynden-logo.svg" alt="Abaxx's logo" class="h-16">
+            <img src="/assets/images/ewc-logo.svg" alt="Abaxx's logo" class="h-8">
+            <img src="/assets/images/fanxp-logo.svg" alt="Abaxx's logo" class="h-10">
+            <img src="/assets/images/web-team-logo.svg" alt="Abaxx's logo" class="h-8">
+        </section>
+    </main>
 @endsection
