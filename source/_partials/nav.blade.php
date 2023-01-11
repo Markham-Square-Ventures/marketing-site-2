@@ -11,8 +11,8 @@
                 class="text-gray-700 text-5 lg:text-6 hover:text-gray-900 transition-fast lg:ml-20">Process</a>
         </li>
         <li>
-            <a href="/blog"
-                class="text-gray-700 text-5 lg:text-6 hover:text-gray-900 transition-fast lg:ml-20">Blog</a>
+            <a href="/essays"
+                class="text-gray-700 text-5 lg:text-6 hover:text-gray-900 transition-fast lg:ml-20">Essays</a>
         </li>
         <li>
             <a href="#contact"

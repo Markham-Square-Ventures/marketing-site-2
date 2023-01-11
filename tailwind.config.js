@@ -53,6 +53,7 @@ module.exports = {
     },
   },
   plugins: [
+    require("@tailwindcss/typography"),
     plugin(function ({ addComponents, theme }) {
       addComponents({
         ".transition-fast": {
