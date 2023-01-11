@@ -6,8 +6,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{ $page->getUrl() }}">
-    <meta name="description" content="{{ $page->description }}">
-    <title>{{ $page->title . ' | Markham Square' ?? 'Markham Square' }}</title>
+    @if ($page->getFilename() === 'index')
+        <title>Markham Square</title>
+        <meta name="description" content="{{ $page->description }}">
+    @elseif($page->getFilename() === 'essays')
+        <title>Essays | Markham Square</title>
+        <meta name="description" content="Our latest thoughts on all things product.">
+    @else
+        <title>{{ $page->title . ' | Markham Square' ?? 'Markham Square' }}</title>
+        <meta name="description" content="{{ $page->seo_description ?? $page->description }}">
+    @endif
     <!-- /* Open Graph tags for FB & Twitter */ --->
     <meta property="og:title" content="{{ $page->title }}" />
     <meta property="og:type" content="website">
