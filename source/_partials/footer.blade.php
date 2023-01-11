@@ -12,7 +12,7 @@
             <div>
                 <h4 class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">Socials</h4>
                 <div class="flex gap-4">
-                    <a href="https://twitter.com/markhamsq" target="_blank" rel="noopener noreferrer">
+                    <a href="https://twitter.com/team_markhamsq" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="h-8 xl:h-10 w-8 xl:w-10 text-gray-900 hover:text-orange-500 transition-fast"
                             fill="currentColor" viewBox="0 0 256 256">
@@ -23,7 +23,7 @@
                                 stroke-width="12"></path>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/company/markhamsq/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/company/markham-square" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="h-8 xl:h-10 w-8 xl:w-10 text-gray-900 hover:text-orange-500 transition-fast"
                             fill="currentColor" viewBox="0 0 256 256">
@@ -42,7 +42,7 @@
                             <circle cx="88" cy="80" r="10"></circle>
                         </svg>
                     </a>
-                    <a href="https://www.linkedin.com/company/markhamsq/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.instagram.com/team_markhamsq/" target="_blank" rel="noopener noreferrer">
                         <svg xmlns="http://www.w3.org/2000/svg"
                             class="h-8 xl:h-10 w-8 xl:w-10 text-gray-900 hover:text-orange-400 transition-fast"
                             fill="currentColor" viewBox="0 0 256 256">
@@ -74,7 +74,7 @@
         <h2 class="text-12 xl:text-20 font-primary font-black relative leading-[100%] text-gray-900">
             Let's work together
             <span
-                class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
+                class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3 select-none">&nbsp;</span>
         </h2>
         <form method="POST" action="https://forms.reform.app/headless/1e147r/untitled-form-1/104x26/submissions"
             class="mt-6 flex flex-col gap-10">

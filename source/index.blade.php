@@ -8,7 +8,7 @@
                 <h1 class="text-16 lg:text-24 font-primary font-black text-center relative leading-[100%] text-gray-900">
                     Your digital product team, on tap
                     <span
-                        class="bg-orange-500 h-4 w-4 lg:h-5 lg:w-5 inline-block translate-y-[2.5rem] lg:translate-y-[4rem] -translate-x-2 lg:-translate-x-4">&nbsp;</span>
+                        class="bg-orange-500 select-none h-4 w-4 lg:h-5 lg:w-5 inline-block translate-y-[2.5rem] lg:translate-y-[4rem] -translate-x-2 lg:-translate-x-4">&nbsp;</span>
                 </h1>
                 <p class="font-secondary text-gray-700 text-6 lg:text-10 text-center mt-10 max-w-xl lg:max-w-4xl mx-auto">
                     Supercharge your digital product development with a flexible, full-service product team.
@@ -16,14 +16,17 @@
             </div>
         </header>
         <img src="/assets/images/lines.png" alt="Background lines"
-            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto">
+            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto select-none">
         <section
             class="pb-20 px-6 2xl:px-0 flex md:grid grid-cols-3 gap-4 lg:gap-6 lg:max-w-screen-2xl lg:mx-auto mt-20 overflow-y-scroll z-10 relative">
-            <img src="/assets/images/fanxp-case-study.jpg" class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover"
+            <img src="/assets/images/fanxp-case-study.jpg"
+                class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
                 alt="Higlighted assets created for FanXP by Markham Square.">
-            <img src="/assets/images/lynden-case-study.jpg" class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover"
+            <img src="/assets/images/lynden-case-study.jpg"
+                class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
                 alt="Higlighted assets created for Lynden Lane by Markham Square.">
-            <img src="/assets/images/ewc-case-study.jpg" class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover"
+            <img src="/assets/images/ewc-case-study.jpg"
+                class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
                 alt="Higlighted assets created for European Watch Company by Markham Square.">
         </section>
     </div>
@@ -41,7 +44,7 @@
                 <h2 class="text-12 xl:text-20 font-primary font-black text-center relative leading-[100%] text-gray-900">
                     What we do
                     <span
-                        class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
+                        class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3 select-none">&nbsp;</span>
                 </h2>
                 <p class="font-secondary text-gray-700 text-6 xl:text-10 text-center mt-8 max-w-5xl mx-auto">
                     Our cross-functional product team works <span class="text-orange-500">directly</span> with you to <span
@@ -99,7 +102,7 @@
         <section class="flex justify-center items-center pb-32 px-6 lg:px-14">
             <div class="max-w-6xl">
                 <img src="/assets/images/quotes.svg"
-                    class="w-28 xl:w-40 -translate-x-12 translate-y-14 xl:translate-y-20 z-0 relative"
+                    class="w-28 xl:w-40 -translate-x-12 translate-y-14 xl:translate-y-20 z-0 relative select-none"
                     alt="Stylized quotation marks">
                 <p class="font-primary text-gray-900 text-6 xl:text-10 leading-relaxed z-10 relative">
                     <span class="font-black">Nick and Matt are internally referred to by our team as “the
@@ -112,7 +115,7 @@
                 </p>
                 <div class="flex gap-6 xl:gap-8 items-center mt-8">
                     <img src="/assets/images/jenna.jpg" alt="An photo of Jenna Constantino."
-                        class="w-28 xl:w-32 shadow-outline-orange ml-[8px]">
+                        class="w-28 xl:w-32 shadow-outline-orange ml-[8px] select-none">
                     <div>
                         <h4 class="font-secondary text-gray-900 font-semibold text-6 xl:text-8">Jenna Constantino</h4>
                         <p class="font-secondary text-gray-700 text-5 xl:text-6">The Lynden Lane Co.</p>
@@ -128,13 +131,13 @@
                         class="text-12 xl:text-20 text-center xl:text-left font-primary font-black relative leading-[100%] text-gray-900">
                         Product team as a service
                         <span
-                            class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
+                            class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3 select-none">&nbsp;</span>
                     </h2>
                 </div>
                 <hr class="border-orange-300 border-2 w-48 mt-12 mb-4 hidden xl:block" />
                 <div class="max-w-lg 2xl:max-w-5xl hidden xl:block">
                     <img src="/assets/images/quotes.svg"
-                        class="w-14 lg:w-20 -translate-x-5 translate-y-14 lg:translate-y-12 z-0 relative"
+                        class="w-14 lg:w-20 -translate-x-5 translate-y-14 lg:translate-y-12 z-0 relative select-none"
                         alt="Stylized quotation marks">
                     <p class="font-primary text-gray-900 text-6 lg:text-7 leading-relaxed z-10 relative">
                         <span class="font-black">That turned out 100x better</span>
@@ -142,7 +145,7 @@
                     </p>
                     <div class="flex gap-2 lg:gap-5 items-center mt-6">
                         <img src="/assets/images/jason.jpg" alt="An photo of Jason Chen."
-                            class="w-20 lg:w-24 shadow-outline-orange ml-[8px]">
+                            class="w-20 lg:w-24 shadow-outline-orange ml-[8px] select-none">
                         <div>
                             <h4 class="font-secondary text-gray-900 font-semibold text-6">Jason Chen</h4>
                             <p class="font-secondary text-gray-700 text-5">The Web Team</p>
@@ -185,7 +188,7 @@
                 <h2 class="text-12 xl:text-20 font-primary font-black text-center relative leading-[100%] text-gray-900">
                     How it works
                     <span
-                        class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
+                        class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3 select-none">&nbsp;</span>
                 </h2>
 
             </div>
@@ -240,7 +243,7 @@
                     <h2 class="text-12 xl:text-20 font-primary font-black relative leading-[100%] text-gray-900">
                         Our process
                         <span
-                            class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
+                            class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3 select-none">&nbsp;</span>
                     </h2>
                 </div>
                 <hr class="border-orange-300 border-2 w-48 mt-12 mb-16" />
