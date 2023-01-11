@@ -72,7 +72,7 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20 border-2 border-orange-200">
                 <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 md:border-r-2">
-                    <h3 class="font-primary text-gray-900 text-8">Websites</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">Websites</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Content strategy</li>
                         <li class="text-5 font-secondary text-gray-700 mb-2">Web design</li>
@@ -83,7 +83,7 @@
                     </ul>
                 </div>
                 <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 lg:border-r-2 border-t-2 md:border-t-0">
-                    <h3 class="font-primary text-gray-900 text-8">MVPs</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">MVPs</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">User & market research</li>
                         <li class="text-5 font-secondary text-gray-700 mb-2">Customer demand validation</li>
@@ -94,7 +94,7 @@
                     </ul>
                 </div>
                 <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 md:border-r-2 border-t-2 lg:border-t-0">
-                    <h3 class="font-primary text-gray-900 text-8">Automation</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">Automation</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Process audits</li>
                         <li class="text-5 font-secondary text-gray-700 mb-2">API integrations</li>
@@ -105,7 +105,7 @@
                     </ul>
                 </div>
                 <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 border-t-2 lg:border-t-0">
-                    <h3 class="font-primary text-gray-900 text-8">More</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">More</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Product analytics & data</li>
                         <li class="text-5 font-secondary text-gray-700 mb-2">Presentations design</li>
@@ -175,25 +175,25 @@
                 class="col-span-12 xl:col-span-6 2xl:col-span-7 w-full px-6 2xl:ml-24 2xl:pr-72 pb-4 xl:py-32 bg-orange-50 xl:bg-transparent">
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full -translate-y-20 xl:translate-y-0">
                     <div class="bg-white p-8 border-t-4 border-orange-300">
-                        <h3 class="font-primary text-gray-900 text-8">Flat rates</h3>
+                        <h3 class="font-primary text-gray-900 text-7 xl:text-8">Flat rates</h3>
                         <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                             Get exactly what you paid for – no calculations, no hours tracking, no surprises.
                         </p>
                     </div>
                     <div class="bg-white p-8 border-t-4 border-orange-300">
-                        <h3 class="font-primary text-gray-900 text-8">Full-service</h3>
+                        <h3 class="font-primary text-gray-900 text-7 xl:text-8">Full-service</h3>
                         <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                             Get a team that can do it all – design, development, product management, and more.
                         </p>
                     </div>
                     <div class="bg-white p-8 border-t-4 border-orange-300">
-                        <h3 class="font-primary text-gray-900 text-8">Flexible by design</h3>
+                        <h3 class="font-primary text-gray-900 text-7 xl:text-8">Flexible by design</h3>
                         <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                             Pivot on a dime – change priorities whenever you need to suit your business.
                         </p>
                     </div>
                     <div class="bg-white p-8 border-t-4 border-orange-300">
-                        <h3 class="font-primary text-gray-900 text-8">Quality you'll love</h3>
+                        <h3 class="font-primary text-gray-900 text-7 xl:text-8">Quality you'll love</h3>
                         <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                             It's not our first rodeo – our expertise will make your project shine.
                         </p>
@@ -212,7 +212,8 @@
             </div>
             <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-8 mt-12 xl:-mt-48">
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
-                    <h3 class="font-primary text-gray-900 text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">Pilot
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
+                        Pilot
                     </h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
                         Try before you buy – we start every relationship with a two sprint pilot to ensure we’re all on the
@@ -220,7 +221,7 @@
                     </p>
                 </div>
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
-                    <h3 class="font-primary text-gray-900 text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
                         Roadmap
                     </h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
@@ -232,16 +233,16 @@
                     </p>
                 </div>
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
-                    <h3 class="font-primary text-gray-900 text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
                         Collaborate
                     </h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
-                        Now for the fun part – we’ll work closely together to to apply the best techniques at the right
-                        times to get you the results you need.
+                        Now for the fun part – we’ll work closely together to apply the best techniques at the right
+                        times to rapidly deliver the results you need.
                     </p>
                 </div>
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
-                    <h3 class="font-primary text-gray-900 text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
                         Level up
                     </h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
@@ -270,21 +271,21 @@
             </div>
             <div class="col-span-12 lg:col-span-5 2xl:col-span-4 flex flex-col">
                 <div class="bg-orange-50 px-6 py-16 2xl:py-20 lg:px-12">
-                    <h3 class="font-primary text-gray-900 text-8">Results-driven</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">Results-driven</h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                         At the start of each sprint, we set a clear, achievable goal. This could be implementing a feature,
                         conducting a product experiment, or designing a new idea.
                     </p>
                 </div>
                 <div class="bg-orange-100 px-6 py-16 2xl:py-20 lg:px-12">
-                    <h3 class="font-primary text-gray-900 text-8">Responsive</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">Responsive</h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                         Two weeks is just the right amount of time to learn if we should double-down on current priorities
                         or pivot to something new.
                     </p>
                 </div>
                 <div class="bg-orange-200 px-6 py-16 2xl:py-20 lg:px-12">
-                    <h3 class="font-primary text-gray-900 text-8">Timeboxed</h3>
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">Timeboxed</h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                         Each sprint, we deliver tangible results to ensure that your product is consistently improving. This
                         allows us to regularly validate new ideas, leading to better long-run outcomes. </p>
@@ -292,23 +293,24 @@
             </div>
         </section>
     </main>
-    <footer class="px-6 py-24 grid grid-cols-6 bg-orange-50 relative overflow-hidden">
+    <footer class="px-6 xl:px-8 py-24 grid grid-cols-6 gap-20 xl:gap-0 bg-orange-50 relative overflow-hidden">
         <img src="/assets/images/lines.png" alt="Background lines"
             class="hidden lg:block absolute z-0 -right-4 top-24 w-80 h-auto">
-        <div class="col-span-2 flex flex-col justify-between relative z-10">
+        <div
+            class="col-span-6 order-2 xl:order-1 xl:col-span-2 flex flex-col gap-12 xl:gap-0 xl:justify-between relative z-10">
             <div>
                 <div>
                     <h4 class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">Email</h4>
                     <a href="mailto:hi@markhamsq.com"
-                        class="font-primary text-gray-900 text-8 hover:text-orange-500 transition-fast">hi@markhamsq.com</a>
+                        class="font-primary text-gray-900 text-7 xl:text-8 hover:text-orange-500 transition-fast">hi@markhamsq.com</a>
                 </div>
                 <div>
                     <h4 class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">Socials</h4>
                     <div class="flex gap-4">
                         <a href="https://twitter.com/markhamsq" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-10 w-10 text-gray-900 hover:text-orange-500 transition-fast" fill="currentColor"
-                                viewBox="0 0 256 256">
+                                class="h-8 xl:h-10 w-8 xl:w-10 text-gray-900 hover:text-orange-500 transition-fast"
+                                fill="currentColor" viewBox="0 0 256 256">
                                 <rect width="256" height="256" fill="none"></rect>
                                 <path
                                     d="M128,88c0-22,18.5-40.3,40.5-40a40,40,0,0,1,36.2,24H240l-32.3,32.3A127.9,127.9,0,0,1,80,224c-32,0-40-12-40-12s32-12,48-36c0,0-64-32-48-120,0,0,40,40,88,48Z"
@@ -318,8 +320,8 @@
                         </a>
                         <a href="https://www.linkedin.com/company/markhamsq/" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-10 w-10 text-gray-900 hover:text-orange-500 transition-fast" fill="currentColor"
-                                viewBox="0 0 256 256">
+                                class="h-8 xl:h-10 w-8 xl:w-10 text-gray-900 hover:text-orange-500 transition-fast"
+                                fill="currentColor" viewBox="0 0 256 256">
                                 <rect width="256" height="256" fill="none"></rect>
                                 <rect x="36" y="36" width="184" height="184" rx="8"
                                     fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -337,8 +339,8 @@
                         </a>
                         <a href="https://www.linkedin.com/company/markhamsq/" target="_blank" rel="noopener noreferrer">
                             <svg xmlns="http://www.w3.org/2000/svg"
-                                class="h-10 w-10 text-gray-900 hover:text-orange-400 transition-fast" fill="currentColor"
-                                viewBox="0 0 256 256">
+                                class="h-8 xl:h-10 w-8 xl:w-10 text-gray-900 hover:text-orange-400 transition-fast"
+                                fill="currentColor" viewBox="0 0 256 256">
                                 <rect width="256" height="256" fill="none"></rect>
                                 <circle cx="128" cy="128" r="40" fill="none"
                                     stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -364,47 +366,67 @@
                 </p>
             </div>
         </div>
-        <div class="col-span-4 relative z-10">
+        <div class="col-span-6 order-1 xl:order-2 xl:col-span-4 relative z-10">
             <h2 class="text-12 xl:text-20 font-primary font-black relative leading-[100%] text-gray-900">
                 Let's work together
                 <span
                     class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
             </h2>
-            <form method="POST" action="https://forms.reform.app/headless/1e147r/untitled-form-1/104x26/submissions">
+            <form method="POST" action="https://forms.reform.app/headless/1e147r/untitled-form-1/104x26/submissions"
+                class="mt-6 flex flex-col gap-10">
                 <fieldset>
-                    <legend>How can we help you?</legend>
-                    <div>
-                        <input type="radio" id="b13bb1bb-17ce-4002-a747-9f1ce2302a8f"
-                            name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="Websites" required />
-                        <label for="b13bb1bb-17ce-4002-a747-9f1ce2302a8f">Websites</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="0cb4a430-851f-4c68-a49d-00676c5d2b60"
-                            name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="MVPs" required />
-                        <label for="0cb4a430-851f-4c68-a49d-00676c5d2b60">MVPs</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="80c48ca3-9a66-426c-922c-c95029505790"
-                            name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="Automation" required />
-                        <label for="80c48ca3-9a66-426c-922c-c95029505790">Automation</label>
-                    </div>
-                    <div>
-                        <input type="radio" id="2b695772-7953-4191-bf97-44efca9b61fe"
-                            name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="More" required />
-                        <label for="2b695772-7953-4191-bf97-44efca9b61fe">More</label>
+                    <legend class="font-primary text-gray-900 text-6 xl:text-7">What can we help you with?</legend>
+                    <div class="flex flex-wrap gap-6 xl:gap-8 mt-5">
+                        <div>
+                            <input type="radio" id="b13bb1bb-17ce-4002-a747-9f1ce2302a8f"
+                                name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="Websites" required
+                                class="hidden peer" />
+                            <label for="b13bb1bb-17ce-4002-a747-9f1ce2302a8f"
+                                class="bg-gray-100 hover:bg-gray-200 transition-fast text-gray-700 peer-checked:text-orange-400 peer-checked:bg-orange-50 peer-checked:border-orange-300 px-4 py-2 text-5 font-secondary font-semibold tracking-wide cursor-pointer border-2 border-transparent">Websites</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="0cb4a430-851f-4c68-a49d-00676c5d2b60"
+                                name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="MVPs" required
+                                class="hidden peer" />
+                            <label for="0cb4a430-851f-4c68-a49d-00676c5d2b60"
+                                class="bg-gray-100 hover:bg-gray-200 transition-fast text-gray-700 peer-checked:text-orange-400 peer-checked:bg-orange-50 peer-checked:border-orange-300 px-4 py-2 text-5 font-secondary font-semibold tracking-wide cursor-pointer border-2 border-transparent">MVPs</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="80c48ca3-9a66-426c-922c-c95029505790"
+                                name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="Automation" required
+                                class="hidden peer" />
+                            <label for="80c48ca3-9a66-426c-922c-c95029505790"
+                                class="bg-gray-100 hover:bg-gray-200 transition-fast text-gray-700 peer-checked:text-orange-400 peer-checked:bg-orange-50 peer-checked:border-orange-300 px-4 py-2 text-5 font-secondary font-semibold tracking-wide cursor-pointer border-2 border-transparent">Automation</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="2b695772-7953-4191-bf97-44efca9b61fe"
+                                name="answers[bbefa74e-f4c8-4bde-86f5-9e16516aa360]" value="More" required
+                                class="hidden peer" />
+                            <label for="2b695772-7953-4191-bf97-44efca9b61fe"
+                                class="bg-gray-100 hover:bg-gray-200 transition-fast text-gray-700 peer-checked:text-orange-400 peer-checked:bg-orange-50 peer-checked:border-orange-300 px-4 py-2 text-5 font-secondary font-semibold tracking-wide cursor-pointer border-2 border-transparent">More</label>
+                        </div>
                     </div>
                 </fieldset>
-                <div>
-                    <label for="1aeb9ecb-915d-45fd-9246-ee27278f0505">What's your name?</label>
+                <div class="flex flex-col">
+                    <label for="1aeb9ecb-915d-45fd-9246-ee27278f0505" class="font-primary text-gray-900 text-6 xl:text-7">
+                        What's your name?
+                    </label>
                     <input type="text" id="1aeb9ecb-915d-45fd-9246-ee27278f0505"
-                        name="answers[1aeb9ecb-915d-45fd-9246-ee27278f0505]" placeholder="Jane Smith" required />
+                        name="answers[1aeb9ecb-915d-45fd-9246-ee27278f0505]" required placeholder="Mark Hamm"
+                        class="w-full max-w-xl p-4 text-5 font-secondary border-b-2 bg-transparent border-b-gray-400 text-gray-700 rounded-none outline-none focus:border-b-orange-400 hover:border-b-orange-400 transition-fast" />
                 </div>
-                <div>
-                    <label for="83676e2c-14ff-4705-b573-ee6bd2a95a8a">What's your email?</label>
+                <div class="flex flex-col">
+                    <label for="83676e2c-14ff-4705-b573-ee6bd2a95a8a" class="font-primary text-gray-900 text-6 xl:text-7">
+                        What's your email?
+                    </label>
                     <input type="email" id="83676e2c-14ff-4705-b573-ee6bd2a95a8a"
-                        name="answers[83676e2c-14ff-4705-b573-ee6bd2a95a8a]" placeholder="jane@example.com" required />
+                        name="answers[83676e2c-14ff-4705-b573-ee6bd2a95a8a]" required placeholder="mark.hamm@example.com"
+                        class="w-full max-w-xl p-4 text-5 font-secondary border-b-2 bg-transparent border-b-gray-400 text-gray-700 rounded-none outline-none focus:border-b-orange-400 hover:border-b-orange-400 transition-fast" />
                 </div>
-                <button type="submit">Get in touch</button>
+                <button type="submit"
+                    class="bg-orange-400 text-white font-semibold text-5 xl:text-6 font-secondary px-6 py-4 mr-auto">
+                    Get in touch
+                </button>
             </form>
         </div>
     </footer>
