@@ -65,12 +65,12 @@
         </section>
         <section class="pt-32 pb-16">
             <div class="px-6 lg:px-14 lg:max-w-7xl lg:mx-auto">
-                <h2 class="text-12 lg:text-20 font-primary font-black text-center relative leading-[100%] text-gray-900">
+                <h2 class="text-12 xl:text-20 font-primary font-black text-center relative leading-[100%] text-gray-900">
                     What we do
                     <span
-                        class="bg-orange-500 h-3 w-3 lg:h-5 lg:w-5 inline-block translate-y-[2rem] lg:translate-y-[3.25rem] -translate-x-1 lg:-translate-x-3">&nbsp;</span>
+                        class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
                 </h2>
-                <p class="font-secondary text-gray-700 text-6 lg:text-10 text-center mt-8 max-w-5xl mx-auto">
+                <p class="font-secondary text-gray-700 text-6 xl:text-10 text-center mt-8 max-w-5xl mx-auto">
                     Our cross-functional product team works <span class="text-orange-500">directly</span> with you to <span
                         class="text-orange-500">build</span> and <span class="text-orange-500">optimize</span> your digital
                     products.
@@ -126,9 +126,9 @@
         <section class="flex justify-center items-center pb-32 px-6 lg:px-14">
             <div class="max-w-6xl">
                 <img src="/assets/images/quotes.svg"
-                    class="w-28 lg:w-40 -translate-x-12 translate-y-14 lg:translate-y-20 z-0 relative"
+                    class="w-28 xl:w-40 -translate-x-12 translate-y-14 xl:translate-y-20 z-0 relative"
                     alt="Stylized quotation marks">
-                <p class="font-primary text-gray-900 text-6 lg:text-10 leading-relaxed z-10 relative">
+                <p class="font-primary text-gray-900 text-6 xl:text-10 leading-relaxed z-10 relative">
                     <span class="font-black">Nick and Matt are internally referred to by our team as “the
                         magicians”.</span>
                     We came to them with the task of building an aesthetically-driven, design-forward, functional site. They
@@ -137,28 +137,29 @@
                     supportive and trustworthy partners through the entirety of the process. They are a one stop shop for
                     impeccable design, logic, and execution.
                 </p>
-                <div class="flex gap-6 lg:gap-8 items-center mt-8">
+                <div class="flex gap-6 xl:gap-8 items-center mt-8">
                     <img src="/assets/images/jenna.jpg" alt="An photo of Jenna Constantino."
-                        class="w-28 lg:w-32 shadow-outline-orange ml-[8px]">
+                        class="w-28 xl:w-32 shadow-outline-orange ml-[8px]">
                     <div>
-                        <h4 class="font-secondary text-gray-900 font-semibold text-6 lg:text-8">Jenna Constantino</h4>
-                        <p class="font-secondary text-gray-700 text-5 lg:text-6">The Lynden Lane Co.</p>
+                        <h4 class="font-secondary text-gray-900 font-semibold text-6 xl:text-8">Jenna Constantino</h4>
+                        <p class="font-secondary text-gray-700 text-5 xl:text-6">The Lynden Lane Co.</p>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="grid grid-cols-12 items-center 2xl:bg-services-gradient">
+        <section class="grid grid-cols-12 items-center xl:bg-services-gradient">
             <div
-                class="col-span-12 2xl:col-span-5 w-full px-6 md:px-16 2xl:px-6 2xl:pl-48 pt-24 pb-48 2xl:py-32 flex flex-col bg-orange-100 2xl:bg-transparent">
-                <div class="max-w-2xl 2xl:max-w-xl w-full">
-                    <h2 class="text-12 lg:text-20 font-primary font-black relative leading-[100%] text-gray-900">
+                class="col-span-12 xl:col-span-6 2xl:col-span-5 w-full px-6 md:px-16 2xl:pl-48 pt-24 pb-40 xl:py-32 flex flex-col bg-orange-100 xl:bg-transparent">
+                <div class="mx-auto xl:mx-0 max-w-2xl 2xl:max-w-xl w-full">
+                    <h2
+                        class="text-12 xl:text-20 text-center xl:text-left font-primary font-black relative leading-[100%] text-gray-900">
                         Product team as a service
                         <span
-                            class="bg-orange-500 h-3 w-3 lg:h-5 lg:w-5 inline-block translate-y-[2rem] lg:translate-y-[3.25rem] -translate-x-1 lg:-translate-x-3">&nbsp;</span>
+                            class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
                     </h2>
                 </div>
-                <hr class="border-orange-300 border-2 w-48 mt-12 mb-4" />
-                <div class="max-w-5xl">
+                <hr class="border-orange-300 border-2 w-48 mt-12 mb-4 hidden xl:initial" />
+                <div class="max-w-lg 2xl:max-w-5xl hidden xl:initial">
                     <img src="/assets/images/quotes.svg"
                         class="w-14 lg:w-20 -translate-x-5 translate-y-14 lg:translate-y-12 z-0 relative"
                         alt="Stylized quotation marks">
@@ -177,32 +178,70 @@
                 </div>
             </div>
             <div
-                class="col-span-12 2xl:col-span-7 w-full px-6 md:px-16 2xl:px-6 2xl:ml-24 2xl:pr-72 pb-4 2xl:py-32 bg-orange-50 2xl:bg-transparent">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full -translate-y-20 2xl:translate-y-0">
+                class="col-span-12 xl:col-span-6 2xl:col-span-7 w-full px-6 2xl:ml-24 2xl:pr-72 pb-4 xl:py-32 bg-orange-50 xl:bg-transparent">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 w-full -translate-y-20 xl:translate-y-0">
                     <div class="bg-white p-8 border-t-4 border-orange-300">
                         <h3 class="font-primary text-gray-900 text-8">Flat rates</h3>
-                        <p class="font-secondary text-gray-700 text-5 mt-2 leading-relaxed">
+                        <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                             Get exactly what you paid for – no calculations, no hours tracking, no surprises.
                         </p>
                     </div>
                     <div class="bg-white p-8 border-t-4 border-orange-300">
                         <h3 class="font-primary text-gray-900 text-8">Full-service</h3>
-                        <p class="font-secondary text-gray-700 text-5 mt-2 leading-relaxed">
+                        <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
                             Get a team that can do it all – design, development, product management, and more.
                         </p>
                     </div>
                     <div class="bg-white p-8 border-t-4 border-orange-300">
                         <h3 class="font-primary text-gray-900 text-8">Flexible by design</h3>
-                        <p class="font-secondary text-gray-700 text-5 mt-2 leading-relaxed">
-                            Pivot on a dime and change priorities whenever you need to suit your business.
+                        <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
+                            Pivot on a dime – change priorities whenever you need to suit your business.
                         </p>
                     </div>
                     <div class="bg-white p-8 border-t-4 border-orange-300">
-                        <h3 class="font-primary text-gray-900 text-8">Prepared for handoff</h3>
-                        <p class="font-secondary text-gray-700 text-5 mt-2 leading-relaxed">
-                            Level up your own product team so you can take over from us when you’re ready.
+                        <h3 class="font-primary text-gray-900 text-8">Quality you'll love</h3>
+                        <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
+                            It's not our first rodeo – our expertise will make your project shine.
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-cols-12 items-center">
+            <div
+                class="col-span-12 lg:col-span-7 2xl:col-span-8 w-full px-6 md:px-16 2xl:pl-48 pt-24 pb-16 lg:py-32 flex flex-col bg-white">
+                <div class="max-w-2xl lg:max-w-xl w-full">
+                    <h2 class="text-12 xl:text-20 font-primary font-black relative leading-[100%] text-gray-900">
+                        Our process
+                        <span
+                            class="bg-orange-500 h-3 w-3 xl:h-4 xl:w-4 inline-block translate-y-[2rem] xl:translate-y-[3.5rem] -translate-x-1 xl:-translate-x-3">&nbsp;</span>
+                    </h2>
+                </div>
+                <hr class="border-orange-300 border-2 w-48 mt-12 mb-16" />
+                <p class="font-secondary text-gray-700 text-6 xl:text-10 max-w-2xl 2xl:max-w-3xl">
+                    We work in two week sprints to discover insights, design solutions, and implement product updates.
+                </p>
+            </div>
+            <div class="col-span-12 lg:col-span-5 2xl:col-span-4 flex flex-col">
+                <div class="bg-orange-50 px-6 py-16 2xl:py-20 lg:px-12">
+                    <h3 class="font-primary text-gray-900 text-8">Results-driven</h3>
+                    <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
+                        At the start of each sprint, we set a clear, achievable goal. This could be implementing a feature,
+                        conducting a product experiment, or designing a new idea.
+                    </p>
+                </div>
+                <div class="bg-orange-100 px-6 py-16 2xl:py-20 lg:px-12">
+                    <h3 class="font-primary text-gray-900 text-8">Responsive</h3>
+                    <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
+                        Two weeks is just the right amount of time to learn if we should double-down on current priorities
+                        or pivot to something new.
+                    </p>
+                </div>
+                <div class="bg-orange-200 px-6 py-16 2xl:py-20 lg:px-12">
+                    <h3 class="font-primary text-gray-900 text-8">Timeboxed</h3>
+                    <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed">
+                        Each sprint, we deliver tangible results to ensure that your product is consistently improving. This
+                        allows us to regularly validate new ideas, leading to better long-run outcomes. </p>
                 </div>
             </div>
         </section>
