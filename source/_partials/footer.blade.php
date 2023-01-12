@@ -124,7 +124,7 @@
                     </label>
                     <input type="text" id="1aeb9ecb-915d-45fd-9246-ee27278f0505"
                         name="answers[1aeb9ecb-915d-45fd-9246-ee27278f0505]" required placeholder="Mark Hamm"
-                        class="w-full max-w-xl p-4 text-5 font-secondary border-b-2 bg-transparent border-b-gray-400 text-gray-700 rounded-none outline-none focus:border-b-orange-400 hover:border-b-orange-400 transition-fast" />
+                        class="w-full max-w-xl py-4 text-5 font-secondary border-b-2 bg-transparent border-b-gray-400 text-gray-700 rounded-none outline-none focus:border-b-orange-400 hover:border-b-orange-400 transition-fast" />
                 </div>
                 <div class="flex flex-col">
                     <label for="83676e2c-14ff-4705-b573-ee6bd2a95a8a"
@@ -134,10 +134,10 @@
                     <input type="email" id="83676e2c-14ff-4705-b573-ee6bd2a95a8a"
                         name="answers[83676e2c-14ff-4705-b573-ee6bd2a95a8a]" required
                         placeholder="mark.hamm@example.com"
-                        class="w-full max-w-xl p-4 text-5 font-secondary border-b-2 bg-transparent border-b-gray-400 text-gray-700 rounded-none outline-none focus:border-b-orange-400 hover:border-b-orange-400 transition-fast" />
+                        class="w-full max-w-xl py-4 text-5 font-secondary border-b-2 bg-transparent border-b-gray-400 text-gray-700 rounded-none outline-none focus:border-b-orange-400 hover:border-b-orange-400 transition-fast" />
                 </div>
                 <button type="submit"
-                    class="bg-orange-400 text-white font-semibold text-5 xl:text-6 font-secondary px-6 py-4 mr-auto">
+                    class="bg-orange-400 hover:bg-orange-500 transition-fast text-white font-semibold text-5 xl:text-6 font-secondary px-6 py-4 mr-auto">
                     Get in touch
                 </button>
             </form>
