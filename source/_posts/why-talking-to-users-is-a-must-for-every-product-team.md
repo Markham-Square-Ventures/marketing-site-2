@@ -5,7 +5,8 @@ author: Nick Basile
 date: 2023-01-11
 header_url: /assets/images/posts/why-talking-to-users-is-a-must-for-every-product-team/hero.jpg
 header_alt: A bunch of people talking to one another
-published: false
+published: true
+seo_description: Boost your product efforts by talking to users.
 ---
 
 Would you let someone design your house without talking to them first? Of course not! How could they possibly know what you need from your living spaces and what aesthetics you enjoy without at least one conversation.

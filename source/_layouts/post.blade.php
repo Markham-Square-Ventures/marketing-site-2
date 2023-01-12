@@ -17,7 +17,7 @@
         </header>
     </div>
     <article
-        class="prose xl:prose-2xl prose-a:text-orange-400 prose-a-hover:text-orange-500 font-secondary prose-headings:font-primary mx-auto text-gray-700 pb-24">
+        class="prose prose-xl xl:prose-2xl prose-a:text-orange-400 prose-a-hover:text-orange-500 font-secondary prose-headings:font-primary mx-auto text-gray-700 pb-24 px-6 xl:px-0">
         <img src="{{ $page->header_url }}" alt="{{ $page->header_alt }}" class="w-full aspect-video object-cover">
         @yield('content')
     </article>
