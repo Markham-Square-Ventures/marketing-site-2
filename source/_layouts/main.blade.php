@@ -25,7 +25,7 @@
     <meta property="og:image" content="{{ $page->cover_image ?? '/assets/images/seo-image.jpg' }}">
     <meta property="og:image:alt" content="The Markham Square logo on top of interlocking orange chevrons.">
     <!-- /* Twitter Large Image Summary Card */ -->
-    <meta name="twitter:card" content="{{ $page->cover_image ?? '/assets/images/seo-image.jpg' }}">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@team_markhamsq">
     <meta name="twitter:creator" content="@team_markhamsq">
     <!-- /* Optional */ -->
