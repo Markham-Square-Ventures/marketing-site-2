@@ -10,21 +10,21 @@
         @include('_partials.seo', [
             'title' => 'Markham Square',
             'description' => $page->description,
-            'image' => '/assets/images/seo-image.jpg',
+            'image' => $page->baseUrl() . '/assets/images/seo-image.jpg',
             'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
         ])
     @elseif($page->getFilename() === 'essays')
         @include('_partials.seo', [
             'title' => 'Essays | Markham Square',
             'description' => 'Our latest thoughts on all things product.',
-            'image' => '/assets/images/seo-image.jpg',
+            'image' => $page->baseUrl() . '/assets/images/seo-image.jpg',
             'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
         ])
     @else
         @include('_partials.seo', [
             'title' => $page->title . ' | Markham Square' ?? 'Markham Square',
             'description' => $page->seo_description ?? $page->description,
-            'image' => $page->header_url ?? '/assets/images/seo-image.jpg',
+            'image' => $page->baseUrl() . $page->header_url ?? $page->baseUrl() . '/assets/images/seo-image.jpg',
             'image_alt' => $page->header_alt ?? 'The Markham Square logo on top of interlocking orange chevrons.',
         ])
     @endif
