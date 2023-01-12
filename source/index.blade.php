@@ -52,8 +52,9 @@
                     products.
                 </p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20 border-2 border-orange-200">
-                <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 md:border-r-2">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20 border-2 border-orange-200 lg:max-w-screen-2xl lg:mx-auto">
+                <div class="p-6 2xl:p-8 bg-orange-50 border-orange-200 md:border-r-2">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">Websites</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Content strategy</li>
@@ -64,7 +65,7 @@
                         <li class="text-5 font-secondary text-gray-700">CMS integrations & development</li>
                     </ul>
                 </div>
-                <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 lg:border-r-2 border-t-2 md:border-t-0">
+                <div class="p-6 2xl:px-8 bg-orange-50 border-orange-200 lg:border-r-2 border-t-2 md:border-t-0">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">MVPs</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">User & market research</li>
@@ -75,7 +76,7 @@
                         <li class="text-5 font-secondary text-gray-700">Low code & custom development</li>
                     </ul>
                 </div>
-                <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 md:border-r-2 border-t-2 lg:border-t-0">
+                <div class="p-6 2xl:p-8 bg-orange-50 border-orange-200 md:border-r-2 border-t-2 lg:border-t-0">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">Automation</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Process audits</li>
@@ -86,7 +87,7 @@
                         <li class="text-5 font-secondary text-gray-700">Custom solutions</li>
                     </ul>
                 </div>
-                <div class="p-6 2xl:p-10 bg-orange-50 border-orange-200 border-t-2 lg:border-t-0">
+                <div class="p-6 2xl:p-8 bg-orange-50 border-orange-200 border-t-2 lg:border-t-0">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">More</h3>
                     <ul class="list-disc pl-6 mt-4">
                         <li class="text-5 font-secondary text-gray-700 mb-2">Product analytics & data</li>
@@ -191,7 +192,8 @@
                 </h2>
 
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-8 mt-12 xl:-mt-48">
+            <div
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 px-8 mt-12 xl:-mt-48 lg:max-w-screen-2xl lg:mx-auto 2xl:px-0">
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8 px-8 border-l-4 border-orange-300 -ml-[2px]">
                         Pilot
@@ -206,11 +208,9 @@
                         Roadmap
                     </h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
-                        Together, we’ll create a prioritized roadmap of sprints and begin executing.
-                    </p>
-                    <p class="font-secondary text-gray-700 text-5 mt-2 leading-relaxed px-8">
-                        We'll review it monthly, but you can always revise your roadmap at any time to add new initiatives
-                        or completely change priorities.
+                        Together, we’ll create a prioritized roadmap of sprints and begin executing. You can always revise
+                        your roadmap at any time to add new initiatives
+                        or completely change priorities
                     </p>
                 </div>
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
@@ -227,11 +227,10 @@
                         Level up
                     </h3>
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
-                        Our goal is to get you to such a good place that your own product team can take over from us.
+                        Our goal is to get you to such a good place that your own product team can take over. So,
+                        we’ll also focus on leveling up your team and documenting our
+                        work to make our eventual handoff a breeze.
                     </p>
-                    <p class="font-secondary text-gray-700 text-5 mt-2 leading-relaxed px-8">
-                        So, as we continue to collaborate, we’ll also focus on leveling up your team and documenting our
-                        work to make our eventual handoff a breeze. </p>
                 </div>
             </div>
         </section>
