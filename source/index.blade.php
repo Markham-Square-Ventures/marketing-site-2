@@ -128,7 +128,7 @@
                     <p class="font-secondary text-gray-700 text-5 mt-4 leading-relaxed px-8">
                         Together, we’ll create a prioritized roadmap of sprints and begin executing. You can always revise
                         your roadmap at any time to add new initiatives
-                        or completely change priorities
+                        or completely change priorities.
                     </p>
                 </div>
                 <div class="xl:border-l-2 border-orange-100 py-8 xl:pt-80 xl:pb-24">
@@ -231,49 +231,102 @@
                 </p>
             </div>
             <div
-                class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-20 border-2 border-orange-300 lg:max-w-screen-2xl lg:mx-auto">
+                class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-20 border-2 border-orange-300 lg:max-w-screen-2xl lg:mx-auto">
                 <div class="p-6 2xl:p-8 bg-white border-orange-300 md:border-r-2">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">Websites</h3>
-                    <ul class="list-disc pl-6 mt-4">
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Content strategy</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Web design</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Low code & custom development</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Conversion rate optimization</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">A/B testing & experimentation</li>
-                        <li class="text-5 font-secondary text-gray-700">CMS integrations & development</li>
+                    <p class="text-5 font-secondary text-gray-900 mt-2">
+                        Build a conversion engine that drives results for your business.
+                    </p>
+                    <ul class="mt-6">
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Make a statement in your crowded market
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Optimized for growth & conversions
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Easy for you to manage and build on
+                        </li>
                     </ul>
                 </div>
-                <div class="p-6 2xl:px-8 bg-white border-orange-300 lg:border-r-2 border-t-2 md:border-t-0">
+                <div class="p-6 2xl:px-8 bg-white border-orange-300 xl:border-r-2 border-t-2 md:border-t-0">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">MVPs</h3>
-                    <ul class="list-disc pl-6 mt-4">
-                        <li class="text-5 font-secondary text-gray-700 mb-2">User & market research</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Customer demand validation</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Product & service strategy</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Roadmap & project management</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Digital product design</li>
-                        <li class="text-5 font-secondary text-gray-700">Low code & custom development</li>
+                    <p class="text-5 font-secondary text-gray-900 mt-2">
+                        Quickly get to market and chart your path to happy customers.
+                    </p>
+                    <ul class="mt-6">
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Strategic guidance from professional builders
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Unlimited iterations as you learn from customers
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Designed for your team to build on
+                        </li>
                     </ul>
                 </div>
-                <div class="p-6 2xl:p-8 bg-white border-orange-300 md:border-r-2 border-t-2 lg:border-t-0">
+                <div class="p-6 2xl:p-8 bg-white border-orange-300 md:border-r-2 border-t-2 xl:border-t-0">
                     <h3 class="font-primary text-gray-900 text-7 xl:text-8">Automation</h3>
-                    <ul class="list-disc pl-6 mt-4">
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Process audits</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">API integrations</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">No/low code tooling</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Workshops & training</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Client portals</li>
-                        <li class="text-5 font-secondary text-gray-700">Custom solutions</li>
+                    <p class="text-5 font-secondary text-gray-900 mt-2">
+                        Automate the tedious, so you can focus on what matters.
+                    </p>
+                    <ul class="mt-6">
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Identify where automation will make an impact
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Streamline your existing workflows
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Keep your team focused on high-value activities
+                        </li>
                     </ul>
                 </div>
-                <div class="p-6 2xl:p-8 bg-white border-orange-300 border-t-2 lg:border-t-0">
-                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">More</h3>
-                    <ul class="list-disc pl-6 mt-4">
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Product analytics & data</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Presentations design</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Design systems</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Executive guidance</li>
-                        <li class="text-5 font-secondary text-gray-700 mb-2">Product team coaching</li>
-                        <li class="text-5 font-secondary text-orange-500">Need something else? Let's talk!</li>
+                <div class="p-6 2xl:p-8 bg-white border-orange-300 border-t-2 xl:border-t-0">
+                    <h3 class="font-primary text-gray-900 text-7 xl:text-8">More...</h3>
+                    <p class="text-5 font-secondary text-gray-900 mt-2">
+                        Tap into our full-service product team to solve your unique needs.
+                    </p>
+                    <ul class="mt-6">
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Gain confidence in your next step
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Understand what’s possible
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Bring your ideas to life
+                        </li>
+                        <li class="text-4 font-secondary text-gray-700 mb-3 flex items-start leading-tight">
+                            <img src="/assets/images/check-circle-light.svg" alt="A checkmark in a circle"
+                                class="h-5 w-5 mr-3">
+                            Optimize your team for success
+                        </li>
                     </ul>
                 </div>
             </div>
