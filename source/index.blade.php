@@ -109,8 +109,7 @@
                         magicians”.</span>
                     We came to them with the task of building an aesthetically-driven, design-forward, functional site. They
                     took our ideas, built-upon them, and
-                    translated them into a rad digital experience. Nick and Matt anticipated our needs and were incredibly
-                    supportive and trustworthy partners through the entirety of the process. They are a one stop shop for
+                    translated them into a rad digital experience. They are a one stop shop for
                     impeccable design, logic, and execution.
                 </p>
                 <div class="flex gap-6 xl:gap-8 items-center mt-8">
