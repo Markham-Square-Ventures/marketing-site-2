@@ -8,6 +8,7 @@
 <meta property="og:url" content="{{ $page->getUrl() }}">
 <meta property="og:image" content="{{ $image }}">
 <meta property="og:image:alt" content="{{ $image_alt }}">
+<meta name="og:site_name" content="Markham Square">
 
 <!-- /* Twitter Large Image Summary Card */ -->
 <meta name="twitter:title" content="{{ $title }}">
@@ -16,3 +17,4 @@
 <meta name="twitter:site" content="@team_markhamsq">
 <meta name="twitter:creator" content="@team_markhamsq">
 <meta name="twitter:image" content="{{ $image }}">
+<meta name="twitter:image:alt" content="{{ $image_alt }}">
