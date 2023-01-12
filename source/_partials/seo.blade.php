@@ -15,3 +15,4 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@team_markhamsq">
 <meta name="twitter:creator" content="@team_markhamsq">
+<meta name="twitter:image" content="{{ $image }}">
