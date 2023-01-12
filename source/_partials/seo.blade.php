@@ -2,12 +2,12 @@
 <meta name="description" content="{{ $description }}">
 
 <!-- /* Open Graph tags for FB & Twitter */ --->
-<meta property="og:title" content="{{ $title }}">
-<meta property="og:description" content="{{ $description }}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ $page->getUrl() }}">
-<meta property="og:image" content="{{ $image }}">
-<meta property="og:image:alt" content="{{ $image_alt }}">
+<meta name="og:title" content="{{ $title }}">
+<meta name="og:description" content="{{ $description }}">
+<meta name="og:type" content="website">
+<meta name="og:url" content="{{ $page->getUrl() }}">
+<meta name="og:image" content="{{ $image }}">
+<meta name="og:image:alt" content="{{ $image_alt }}">
 <meta name="og:site_name" content="Markham Square">
 
 <!-- /* Twitter Large Image Summary Card */ -->
