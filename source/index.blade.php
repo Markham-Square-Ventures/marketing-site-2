@@ -25,9 +25,9 @@
             <img src="/assets/images/lynden-case-study.jpg"
                 class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
                 alt="Higlighted assets created for Lynden Lane by Markham Square.">
-            <img src="/assets/images/ewc-case-study.jpg"
+            <img src="/assets/images/sol-dev-case-study.jpg"
                 class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
-                alt="Higlighted assets created for European Watch Company by Markham Square.">
+                alt="Higlighted assets created for soldev.app by Markham Square.">
         </section>
     </div>
     <main class="overflow-hidden">
@@ -36,7 +36,7 @@
             <img src="/assets/images/abaxx-logo.svg" alt="Abaxx's logo" class="h-8">
             <img src="/assets/images/lynden-logo.svg" alt="The Lynden Lane Co's logo" class="h-16">
             <img src="/assets/images/web-team-logo.svg" alt="The Web Team's logo" class="h-8">
-            <img src="/assets/images/ewc-logo.svg" alt="European Watch Company's logo" class="h-8">
+            <img src="/assets/images/sol-dev-logo.svg" alt="SolDev.app's logo" class="h-8">
             <img src="/assets/images/fanxp-logo.svg" alt="FanXP's logo" class="h-10">
         </section>
 

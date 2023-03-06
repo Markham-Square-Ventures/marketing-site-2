@@ -28,16 +28,6 @@
             'image_alt' => $page->header_alt ?? 'The Markham Square logo on top of interlocking orange chevrons.',
         ])
     @endif
-    {{-- <!-- /* Open Graph tags for FB & Twitter */ --->
-    <meta property="og:title" content="{{ $page->title }}" />
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="{{ $page->getUrl() }}">
-    <meta property="og:image" content="{{ $page->cover_image ?? '/assets/images/seo-image.jpg' }}">
-    <meta property="og:image:alt" content="The Markham Square logo on top of interlocking orange chevrons.">
-    <!-- /* Twitter Large Image Summary Card */ -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="@team_markhamsq">
-    <meta name="twitter:creator" content="@team_markhamsq"> --}}
 
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-icon-60x60.png">
