@@ -14,5 +14,8 @@ return [
             'sort' => '-date',
             'path' => 'essays/{filename}',
         ],
+        'pages' => [
+            'path' => '{filename}',
+        ],
     ],
 ];
