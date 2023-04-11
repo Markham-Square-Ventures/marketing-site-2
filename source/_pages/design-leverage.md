@@ -1,5 +1,10 @@
 ---
 extends: _layouts.page
+seo_title: Design Leverage
+seo_description: Design subscriptions to elevate your digital products.
+seo_site_name: Design Leverage
+seo_img: /assets/images/design-leverage-seo.jpg
+seo_img_alt: A graphic that says, "Your product design team, on tap"
 logo_path: /assets/images/design-leverage-logo.svg
 calendly_url: https://calendly.com/nick-1330/design-leverage-intro
 hero_title: Your product design team, on tap

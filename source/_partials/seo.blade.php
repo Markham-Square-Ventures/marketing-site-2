@@ -8,7 +8,7 @@
 <meta property="og:url" content="{{ $page->getUrl() }}">
 <meta property="og:image" content="{{ $image }}">
 <meta property="og:image:alt" content="{{ $image_alt }}">
-<meta property="og:site_name" content="Markham Square">
+<meta property="og:site_name" content="{{ $site_name }}">
 
 <!-- /* Twitter Large Image Summary Card */ -->
 <meta name="twitter:card" content="summary_large_image">

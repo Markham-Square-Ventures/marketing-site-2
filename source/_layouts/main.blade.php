@@ -12,6 +12,7 @@
             'description' => $page->description,
             'image' => $page->baseUrl . '/assets/images/seo-img.jpg',
             'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
+            'site_name' => 'Markham Square',
         ])
     @elseif($page->getFilename() === 'essays')
         @include('_partials.seo', [
@@ -19,6 +20,7 @@
             'description' => 'Our latest thoughts on all things product.',
             'image' => $page->baseUrl . '/assets/images/seo-img.jpg',
             'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
+            'site_name' => 'Markham Square',
         ])
     @else
         @include('_partials.seo', [
@@ -26,6 +28,7 @@
             'description' => $page->seo_description ?? $page->description,
             'image' => $page->baseUrl . $page->header_url ?? $page->baseUrl . '/assets/images/seo-img.jpg',
             'image_alt' => $page->header_alt ?? 'The Markham Square logo on top of interlocking orange chevrons.',
+            'site_name' => 'Markham Square',
         ])
     @endif
 
