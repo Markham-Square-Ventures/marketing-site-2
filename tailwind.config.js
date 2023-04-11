@@ -49,6 +49,7 @@ module.exports = {
         "hero-gradient": "linear-gradient(180deg, #FFEDE5 0%, #FFFFFF 77.05%)",
         "services-gradient":
           "linear-gradient(90deg, #FFEDE5 0%, #FFEDE5 62.5%, #FFFCFA 62.51%, #FFFCFA 100%)",
+        noise: "url('/assets/images/bg-noise.svg')",
       },
       boxShadow: {
         "outline-orange": "-8px 8px 0 0 #FFC2A6",
