@@ -82,7 +82,7 @@
                     {{ $page->hero_subtitle }}
                 </p>
                 <a href="/#pricing"
-                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-10 mx-auto">
+                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-10 mx-auto hover:bg-orange-500 transition-slow">
                     Work with us
                     <i class="fa-light fa-arrow-right-long h-5 w-5"></i>
                 </a>
@@ -109,7 +109,7 @@
             <img src="/assets/images/sol-dev-logo.svg" alt="SolDev.app's logo" class="h-8">
             <img src="/assets/images/fanxp-logo.svg" alt="FanXP's logo" class="h-10">
         </section>
-        <section id="about" class="bg-orange-50 pt-20 pb-72">
+        <section id="about" class="bg-orange-50 pt-32 pb-72">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
@@ -129,7 +129,7 @@
                 </div>
             </div>
         </section>
-        <section class="-mt-40 pb-20">
+        <section class="-mt-40">
             <div class="bg-noise flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
                 <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-4xl -tracking-[1px]">
                     {{ $page->quote }}
@@ -141,7 +141,7 @@
                 </div>
             </div>
         </section>
-        <section class="py-20">
+        <section class="py-32">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
@@ -160,6 +160,102 @@
                             </p>
                         </div>
                     @endforeach
+                </div>
+            </div>
+        </section>
+        <section id="services" class="py-32 bg-noise">
+            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto grid grid-cols-1 xl:grid-cols-3 gap-8">
+                <div>
+                    <div class="max-w-sm">
+                        <h2
+                            class="text-10 xl:text-12 font-medium relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none">
+                            What you need, when you need it
+                        </h2>
+                        <p class="mt-7 text-gray-700 text-5 -tracking-[0.5px]">
+                            Need something else? <a class="underline hover:text-gray-900 transition-slow"
+                                href="{{ $page->calendly_url }}" target="_blank">Get in
+                                touch</a>. We'll either
+                            help out or connect you with the folks who can.
+                        </p>
+                    </div>
+                </div>
+                <div class="xl:mt-0 flex flex-col gap-3 xl:items-center xl:col-span-2">
+                    @foreach ($page->services as $row)
+                        <div class="flex gap-3 flex-wrap">
+                            @foreach ($row as $item)
+                                <p
+                                    class="flex-shrink-0 text-center bg-white px-5 py-4 text-4 xl:text-5 text-gray-900 leading-none -tracking-[0.5px]">
+                                    {{ $item }}
+                                </p>
+                            @endforeach
+                        </div>
+                    @endforeach
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="bg-orange-50 py-32">
+            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+                <div class="max-w-lg mx-auto">
+                    <h2
+                        class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 leading-none">
+                        Choose a plan that suits your needs
+                    </h2>
+                    <p class="mt-7 text-gray-700 text-5 -tracking-[0.5px] text-center">
+                        Need help deciding? <a class="underline hover:text-gray-900 transition-slow" target="_blank"
+                            href="{{ $page->calendly_url }}">Book a call</a>
+                    </p>
+                </div>
+                <div class="grid grid-cols-1 lg:grid-cols-3 mt-16">
+                    @foreach ($page->plans as $plan)
+                        <div class="bg-white border-2 border-orange-200 p-10 flex flex-col -m-px">
+                            <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
+                                {{ $plan[0] }}
+                            </h2>
+                            <p class="mt-1 text-4 text-gray-700 -tracking-[-0.5px] leading-snug">{{ $plan[1] }}
+                            </p>
+                            <h3 class="mt-8 text-10 font-medium text-gray-900">
+                                ${{ $plan[2] }}<span class="font-normal text-4 text-gray-700">/month</span>
+                            </h3>
+                            <p class="mt-1 text-3 text-gray-700 -tracking-[-0.5px] leading-snug">{{ $plan[3] }}
+                            </p>
+                            <a href="{{ $plan[4] }}"
+                                class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-8 hover:bg-orange-500 transition-slow">
+                                Get started
+                                <i class="fa-light
+                                fa-arrow-right-long h-5 w-5"></i>
+                            </a>
+                            <p
+                                class="mt-3 text-gray-700 text-4 -tracking-[0.5px] text-center hover:text-gray-900 transition-slow">
+                                <a class="underline" target="_blank" href="{{ $page->calendly_url }}">Book a
+                                    call</a>
+                            </p>
+                        </div>
+                    @endforeach
+                    <div
+                        class="bg-white border-2 border-orange-200 p-10 flex flex-col xl:items-center -m-px bg-noise xl:col-span-2">
+                        <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
+                            {{ $page->add_on_header }}
+                        </h2>
+                        <p class="mt-1 text-4 text-gray-700 -tracking-[-0.5px] leading-snug max-w-sm xl:text-center">
+                            {{ $page->add_on_text }}
+                        </p>
+                        <p
+                            class="mt-3 text-gray-700 text-4 -tracking-[0.5px] xl:text-center hover:text-gray-900 transition-slow">
+                            <a class="underline" target="_blank" href="{{ $page->add_on_url }}">Learn more</a>
+                        </p>
+                    </div>
+                    <div class="bg-white border-2 border-orange-200 p-10 flex flex-col -m-px">
+                        <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
+                            {{ $page->referral_header }}
+                        </h2>
+                        <p class="mt-1 text-4 text-gray-700 -tracking-[-0.5px] leading-snug">
+                            {{ $page->referral_text }}
+                        </p>
+                        <p class="mt-3 text-gray-700 text-4 -tracking-[0.5px] hover:text-gray-900 transition-slow">
+                            <a class="underline" target="_blank" href="{{ $page->referral_url }}">Join today</a>
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>

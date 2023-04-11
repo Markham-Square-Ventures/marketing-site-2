@@ -1,6 +1,7 @@
 ---
 extends: _layouts.page
 logo_path: /assets/images/design-leverage-logo.svg
+calendly_url: https://calendly.com/nick-1330/design-leverage-intro
 hero_title: Your product design team, on tap
 hero_subtitle: Design subscriptions to elevate your digital products.
 hero_quote: “100x better than what I had originally imagined.” – Jason Chen
@@ -62,4 +63,46 @@ benefits:
       "Own what you pay for – every design is unique and yours to keep.",
     ],
   ]
+services:
+  [
+    ["Product design", "Web design", "Landing pages", "Mobile apps"],
+    ["Service design", "AI design", "User & market research", "Wireframes"],
+    ["UI design", "UX design", "Design systems", "Design education"],
+    [
+      "Digital products",
+      "Design hiring",
+      "Management guidance",
+      "Design coaching",
+    ],
+  ]
+plans:
+  [
+    [
+      "Monthly",
+      "Pause or cancel anytime.",
+      "5,995",
+      "Paid monthly.",
+      "https://stripe.com",
+    ],
+    [
+      "Quarterly",
+      "Save $500 every month.",
+      "5,495",
+      "Paid quarterly.",
+      "https://stripe.com",
+    ],
+    [
+      "Yearly",
+      "Save $1000 every month.",
+      "4,995",
+      "Paid annually.",
+      "https://stripe.com",
+    ],
+  ]
+add_on_header: Ready to build?
+add_on_text: Let's bring your designs to life with our engineering & development subscriptions.
+add_on_url: /development-leverage
+referral_header: Refer & earn
+referral_text: Receive a 5% monthly recurring commission for every referral you make.
+referral_url: "#"
 ---
