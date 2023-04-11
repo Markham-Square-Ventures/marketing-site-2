@@ -7,7 +7,7 @@ seo_site_name: Design Leverage
 seo_img: /assets/images/design-leverage-seo.jpg
 seo_img_alt: A graphic that says, "Your product design team, on tap"
 logo_path: /assets/images/design-leverage-logo.svg
-calendly_url: https://calendly.com/nick-1330/design-leverage-intro
+calendly_url: https://calendly.com/nick-1330/leverage-intro?a1=1
 hero_title: Your product design team, on tap
 hero_subtitle: Design subscriptions to elevate your digital products.
 hero_quote: “100x better than what I had originally imagined.” – Jason Chen
@@ -88,21 +88,21 @@ plans:
       "Pause or cancel anytime.",
       "5,995",
       "Paid monthly.",
-      "https://stripe.com",
+      "https://forms.reform.app/1e147r/design-leverage-inquiry/z3qeml?47bdd25f-e200-4f2b-bdb6-44e8ca820633=Monthly%20($5,995/month)",
     ],
     [
       "Quarterly",
       "Save $500 every month.",
       "5,495",
       "Paid quarterly.",
-      "https://stripe.com",
+      "https://forms.reform.app/1e147r/design-leverage-inquiry/z3qeml?47bdd25f-e200-4f2b-bdb6-44e8ca820633=Quarterly%20($5,495/month)",
     ],
     [
       "Yearly",
       "Save $1000 every month.",
       "4,995",
       "Paid annually.",
-      "https://stripe.com",
+      "https://forms.reform.app/1e147r/design-leverage-inquiry/z3qeml?47bdd25f-e200-4f2b-bdb6-44e8ca820633=Yearly%20($4,995/month)",
     ],
   ]
 add_on_header: Ready to build?

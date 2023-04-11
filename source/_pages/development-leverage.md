@@ -7,7 +7,7 @@ seo_site_name: Development Leverage
 seo_img: /assets/images/development-leverage-seo.jpg
 seo_img_alt: A graphic that says, "Your product development team, on tap"
 logo_path: /assets/images/development-leverage-logo.svg
-calendly_url: https://calendly.com/nick-1330/design-leverage-intro
+calendly_url: https://calendly.com/nick-1330/leverage-intro?a1=2
 hero_title: Your engineering team, on tap
 hero_subtitle: Development subscriptions to build and scale your digital products.
 hero_quote: “100x better than what I had originally imagined.” – Jason Chen
@@ -83,21 +83,21 @@ plans:
       "Pause or cancel anytime.",
       "9,995",
       "Paid monthly.",
-      "https://stripe.com",
+      "https://forms.reform.app/1e147r/development-leverage-inquiry/z3qeml?7bf8fb9d-d3f8-4763-8798-d71c4bf6cb6f=Monthly%20($9,995/month)",
     ],
     [
       "Quarterly",
       "Save $500 every month.",
       "9,495",
       "Paid quarterly.",
-      "https://stripe.com",
+      "https://forms.reform.app/1e147r/development-leverage-inquiry/z3qeml?7bf8fb9d-d3f8-4763-8798-d71c4bf6cb6f=Quarterly%20($9,495/month)",
     ],
     [
       "Yearly",
       "Save $1000 every month.",
       "8,995",
       "Paid annually.",
-      "https://stripe.com",
+      "https://forms.reform.app/1e147r/development-leverage-inquiry/z3qeml?7bf8fb9d-d3f8-4763-8798-d71c4bf6cb6f=Yearly%20($8,995/month)",
     ],
   ]
 add_on_header: Need a design?
