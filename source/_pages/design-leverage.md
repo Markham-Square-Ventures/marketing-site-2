@@ -105,7 +105,7 @@ plans:
     ],
   ]
 add_on_header: Ready to build?
-add_on_text: Let's bring your designs to life with our engineering & development subscriptions.
+add_on_text: Bring your designs to life with our engineering & development subscriptions.
 add_on_url: /development-leverage
 referral_header: Refer & earn
 referral_text: Receive a 5% monthly recurring commission for every referral you make.
@@ -113,8 +113,29 @@ referral_url: "#"
 faqs:
   [
     [
-      "What's the best thing about Switzerland?",
-      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "How many requests can I make?",
+      "You can make as many requests as you’d like! We'll work through them one by one based on the priority you set. You can always change your priorities at any time.",
+    ],
+    [
+      "How long do requests take?",
+      "We typically complete simple requests in 48 hours (two business days). Larger, more compliclated requests take longer. We provide estimates for each request, so you'll have a clear understanding of the timeline.",
+    ],
+    [
+      "Do I own the rights?",
+      "Yep, they're yours to keep! You'll own 100% of the designs forever.",
+    ],
+    [
+      "What if I want to change a design?",
+      "We're not done until you're satisfied. You can revise any design as many times as you'd like.",
+    ],
+    [
+      "Who's creating my designs?",
+      "Design Leverage is brought to you by the team at Markham Square. Our highly skilled & experienced designers will take of your needs.",
+    ],
+    [
+      "Can I get a refund?",
+      "Due to the time-intensive, bespoke nature of the work, we do not offer refunds. If you're on the fence, we recommend trying a monthly plan to see if we're a fit for your needs.",
     ],
   ]
+cta_header: Join Design Leverage and elevate your digital product's experience
 ---

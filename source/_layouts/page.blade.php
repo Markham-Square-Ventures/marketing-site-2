@@ -268,8 +268,20 @@
                 </div>
             </div>
         </section>
+        <section class="py-32 bg-orange-50">
+            <div class="bg-noise flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
+                <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-2xl -tracking-[1px]">
+                    {{ $page->cta_header }}
+                </h2>
+                <a href="#pricing"
+                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-8 mx-auto hover:bg-orange-500 transition-slow">
+                    Get started
+                    <i class="fa-light fa-arrow-right-long h-5 w-5"></i>
+                </a>
+            </div>
+        </section>
     </main>
-    <footer class="bg-orange-50 py-32">
+    <footer class="bg-orange-100 py-32">
         <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto flex flex-col items-center gap-6">
             <a href="#top" class="flex-shrink-0">
                 <img src="{{ $page->logo_path }}" alt="The Markham Square logo" class="h-8 xl:h-12">
