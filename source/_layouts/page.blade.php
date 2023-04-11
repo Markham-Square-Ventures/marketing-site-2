@@ -107,6 +107,7 @@
             <img src="/assets/images/lynden-logo.svg" alt="The Lynden Lane Co's logo" class="h-16">
             <img src="/assets/images/web-team-logo.svg" alt="The Web Team's logo" class="h-8">
             <img src="/assets/images/sol-dev-logo.svg" alt="SolDev.app's logo" class="h-8">
+            <img src="/assets/images/ewc-logo.svg" alt="European Watch Company's logo" class="h-8">
             <img src="/assets/images/fanxp-logo.svg" alt="FanXP's logo" class="h-10">
         </section>
         <section id="about" class="bg-orange-50 pt-32 pb-72">
@@ -194,7 +195,7 @@
             </div>
         </section>
 
-        <section id="pricing" class="bg-orange-50 py-32">
+        <section id="pricing" class="bg-orange-50 py-32 ">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <div class="max-w-lg mx-auto">
                     <h2
@@ -225,11 +226,10 @@
                                 <i class="fa-light
                                 fa-arrow-right-long h-5 w-5"></i>
                             </a>
-                            <p
-                                class="mt-3 text-gray-700 text-4 -tracking-[0.5px] text-center hover:text-gray-900 transition-slow">
-                                <a class="underline" target="_blank" href="{{ $page->calendly_url }}">Book a
-                                    call</a>
-                            </p>
+
+                            <a class="mt-3 text-gray-700 text-4 -tracking-[0.5px] text-center hover:text-gray-900 transition-slow underline"
+                                target="_blank" href="{{ $page->calendly_url }}">Book a
+                                call</a>
                         </div>
                     @endforeach
                     <div
@@ -256,6 +256,32 @@
                             <a class="underline" target="_blank" href="{{ $page->referral_url }}">Join today</a>
                         </p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="faqs" class="bg-white py-32">
+            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+                <h2
+                    class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 leading-none">
+                    Frequently asked questions</h2>
+                <p class="mt-7 text-gray-700 text-5 -tracking-[0.5px] text-center">Can’t find
+                    what you’re looking for? <a
+                        class="text-gray-700 -tracking-[0.5px] text-center hover:text-gray-900 transition-slow underline"
+                        target="_blank" href="{{ $page->calendly_url }}">Book a
+                        call</a></p>
+                <div class="mt-20">
+                    <dl
+                        class="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
+                        @foreach ($page->faqs as $faq)
+                            <div>
+                                <dt class="text-5 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
+                                    {{ $faq[0] }}</dt>
+                                <dd class="mt-2 text-4 text-gray-700 -tracking-[-0.5px] leading-relaxed">
+                                    {{ $faq[1] }}</dd>
+                            </div>
+                        @endforeach
+                    </dl>
                 </div>
             </div>
         </section>

@@ -105,4 +105,11 @@ add_on_url: /development-leverage
 referral_header: Refer & earn
 referral_text: Receive a 5% monthly recurring commission for every referral you make.
 referral_url: "#"
+faqs:
+  [
+    [
+      "What's the best thing about Switzerland?",
+      "I don't know, but the flag is a big plus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+    ],
+  ]
 ---
