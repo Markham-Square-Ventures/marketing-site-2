@@ -61,16 +61,15 @@
     <div class="bg-hero-gradient overflow-hidden relative">
         <header class="pt-6 lg:pt-10 px-6 lg:px-14 z-10 relative">
             <nav class="flex justify-center items-center gap-8 md:gap-16">
-                <a href="/#about" class="text-gray-700 text-3 md:text-4 hover:text-gray-900 transition-fast">about</a>
-                <a href="/#services"
+                <a href="#about" class="text-gray-700 text-3 md:text-4 hover:text-gray-900 transition-fast">about</a>
+                <a href="#services"
                     class="text-gray-700 text-3 md:text-4 hover:text-gray-900 transition-fast">services</a>
-                <a href="/" class="flex-shrink-0">
+                <a href="{{ $page->getUrl() }}" class="flex-shrink-0">
                     <img src="{{ $page->logo_path }}" alt="The Markham Square logo" class="h-8 xl:h-10">
                 </a>
-                <a href="/#pricing"
+                <a href="#pricing"
                     class="text-gray-700 text-3 md:text-4 hover:text-gray-900 transition-fast">pricing</a>
-                <a href="/#faqs" class="text-gray-700 text-3 md:text-4 hover:text-gray-900 transition-fast">faqs</a>
-
+                <a href="#faqs" class="text-gray-700 text-3 md:text-4 hover:text-gray-900 transition-fast">faqs</a>
             </nav>
             <div class="lg:max-w-3xl lg:mx-auto mt-24 lg:mt-32 flex flex-col">
                 <h1
@@ -110,18 +109,17 @@
             <img src="/assets/images/sol-dev-logo.svg" alt="SolDev.app's logo" class="h-8">
             <img src="/assets/images/fanxp-logo.svg" alt="FanXP's logo" class="h-10">
         </section>
-        <section class="bg-orange-50 pt-20 pb-72">
+        <section id="about" class="bg-orange-50 pt-20 pb-72">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
                     {{ $page->process_header }}
                 </h2>
-
-                <div class="grid grid-cols-1 md:grid-cols-3 mt-12">
+                <div class="grid grid-cols-1 md:grid-cols-3 mt-16">
                     @foreach ($page->steps as $step)
                         <div
                             class="bg-white border-2 border-orange-200 p-8 lg:py-16 lg:px-20 flex flex-col items-center -m-px">
-                            <i class="fa-thin text-orange-400 h-16 w-16 {{ $step[0] }}"></i>
+                            <i class="fa-thin text-orange-400 h-16 w-16 md:h-20 md:w-20 {{ $step[0] }}"></i>
                             <h3
                                 class="text-center mt-4 text-4 lg:text-5 text-gray-900 -tracking-[-0.5px] leading-snug">
                                 {{ $step[1] }}
@@ -131,7 +129,7 @@
                 </div>
             </div>
         </section>
-        <section class="-mt-40 pb-40">
+        <section class="-mt-40 pb-20">
             <div class="bg-noise flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
                 <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-4xl -tracking-[1px]">
                     {{ $page->quote }}
@@ -140,6 +138,28 @@
                     <h3 class="before:content-['–_'] mt-6 -ml-4 text-5 -tracking-[0.5px] text-gray-900">
                         {{ $page->quote_source }}</h3>
                     <h4 class="text-gray-700 mt-1 text-4 -tracking-[0.5px]">{{ $page->quote_credential }}</h4>
+                </div>
+            </div>
+        </section>
+        <section class="py-20">
+            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+                <h2
+                    class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
+                    {{ $page->benefits_header }}
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-16 gap-8">
+                    @foreach ($page->benefits as $benefit)
+                        <div class="bg-white flex flex-col items-center px-8 md:py-2 xl:py-0">
+                            <i class="fa-thin text-orange-400 h-16 w-16 md:h-20 md:w-20 {{ $benefit[0] }}"></i>
+                            <h3
+                                class="text-center mt-4 text-5 lg:text-6 text-gray-900 font-medium -tracking-[-0.5px] leading-snug">
+                                {{ $benefit[1] }}
+                            </h3>
+                            <p class="text-center mt-2 text-4 lg:text-5 text-gray-700 -tracking-[-0.5px] leading-snug">
+                                {{ $benefit[2] }}
+                            </p>
+                        </div>
+                    @endforeach
                 </div>
             </div>
         </section>

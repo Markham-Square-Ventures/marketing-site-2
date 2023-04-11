@@ -38,4 +38,28 @@ steps:
 quote: “They are a one stop shop for impeccable design, logic, and execution.”
 quote_source: Jenna Constantino
 quote_credential: The Lynden Lane Co.
+benefits_header: Save time & money with results you can count on
+benefits:
+  [
+    [
+      "fa-money-bill-transfer",
+      "Predictable rates",
+      "Get exactly what you paid for – no calculations, no tracking, no surprises.",
+    ],
+    [
+      "fa-play-pause",
+      "Flexible by design",
+      "Go at your own pace – pause and resume your subscription whenever.",
+    ],
+    [
+      "fa-gem",
+      "Quality you'll love",
+      "It's not our first rodeo – our years of experience will make your designs shine.",
+    ],
+    [
+      "fa-infinity",
+      "Yours forever",
+      "Own what you pay for – every design is unique and yours to keep.",
+    ],
+  ]
 ---
