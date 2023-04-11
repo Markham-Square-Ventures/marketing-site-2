@@ -14,23 +14,36 @@
         'site_name' => $page->seo_site_name,
     ])
 
-    <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon-leverage/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon-leverage/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon-leverage/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/assets/images/favicon-leverage/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/assets/images/favicon-leverage/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/assets/images/favicon-leverage/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/assets/images/favicon-leverage/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/favicon-leverage/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/favicon-leverage/apple-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="57x57"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/apple-icon-180x180.png">
     <link rel="icon" type="image/png" sizes="192x192"
-        href="/assets/images/favicon-leverage/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-leverage/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/assets/images/favicon-leverage/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-leverage/favicon-16x16.png">
-    <link rel="manifest" href="/assets/images/favicon-leverage/manifest.json">
+        href="/assets/images/favicon-leverage/{{ $page->color }}/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16"
+        href="/assets/images/favicon-leverage/{{ $page->color }}/favicon-16x16.png">
+    <link rel="manifest" href="/assets/images/favicon-leverage/{{ $page->color }}/manifest.json">
     <meta name="msapplication-TileColor" content="#FF5200">
-    <meta name="msapplication-TileImage" content="/assets/images/favicon-leverage/ms-icon-144x144.png">
+    <meta name="msapplication-TileImage"
+        content="/assets/images/favicon-leverage/{{ $page->color }}/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
@@ -40,8 +53,8 @@
     <script defer src="{{ mix('js/fontawesome.min.js', 'assets/build') }}"></script>
 </head>
 
-<body class="text-gray-900 font-primary antialiased selection:bg-orange-400 selection:text-white">
-    <div id="top" class="bg-hero-gradient overflow-hidden relative">
+<body class="text-gray-900 font-primary antialiased selection:bg-{{ $page->color }}-400 selection:text-white">
+    <div id="top" class="bg-gradient-to-b from-{{ $page->color }}-100 to-white overflow-hidden relative">
         <header class="pt-6 lg:pt-10 px-6 lg:px-14 z-10 relative">
             <nav class="flex justify-center items-center gap-8 md:gap-16">
                 <a href="#about" class="text-gray-700 text-3.5 md:text-4 hover:text-gray-900 transition-fast">about</a>
@@ -59,13 +72,13 @@
                     class="text-16 md:text-18 font-black text-center relative leading-[100%] text-gray-900 -tracking-[2.5px]">
                     {{ $page->hero_title }}
                     <span
-                        class="bg-orange-500 select-none h-4 w-4  inline-block translate-y-[2.55rem] md:translate-y-[3rem] -translate-x-1.5 md:-translate-x-2">&nbsp;</span>
+                        class="bg-{{ $page->color }}-500 select-none h-4 w-4  inline-block translate-y-[2.55rem] md:translate-y-[3rem] -translate-x-1.5 md:-translate-x-2">&nbsp;</span>
                 </h1>
                 <p class=" text-gray-700 text-5 text-center mt-10 mx-auto -tracking-[0.5px]">
                     {{ $page->hero_subtitle }}
                 </p>
                 <a href="#pricing"
-                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-10 mx-auto hover:bg-orange-500 transition-slow">
+                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-10 mx-auto hover:bg-{{ $page->color }}-500 transition-slow">
                     Work with us
                     <i class="fa-light fa-arrow-right-long h-5 w-5"></i>
                 </a>
@@ -73,19 +86,37 @@
                 </p>
             </div>
         </header>
-        <img src="/assets/images/lines.png" alt="Background lines"
-            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto select-none">
+        <svg width="384" height="1407" viewBox="0 0 384 1407" fill="none" xmlns="http://www.w3.org/2000/svg"
+            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto select-none text-{{ $page->color }}-300">
+            <mask id="mask0_88_348" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
+                width="720" height="1435">
+                <rect x="2" y="2" width="396" height="1431" stroke="currentColor"
+                    stroke-width="4" />
+                <rect x="82" y="82" width="396" height="1351" stroke="currentColor"
+                    stroke-width="4" />
+                <rect x="162" y="162" width="396" height="1271" stroke="currentColor"
+                    stroke-width="4" />
+                <rect x="242" y="242" width="396" height="1191" stroke="currentColor"
+                    stroke-width="4" />
+                <rect x="322" y="322" width="396" height="1111" stroke="currentColor"
+                    stroke-width="4" />
+            </mask>
+            <g mask="url(#mask0_88_348)">
+                <rect x="-76" y="-121" width="460" height="1528" fill="currentColor" />
+            </g>
+        </svg>
         <section
             class="pb-20 px-6 2xl:px-0 flex md:grid grid-cols-3 gap-4 lg:gap-6 lg:max-w-screen-2xl lg:mx-auto mt-20 overflow-y-scroll z-10 relative">
             @foreach ($page->hero_images as $image)
-                <img src="{{ $image[0] }}" class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
+                <img src="{{ $image[0] }}"
+                    class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
                     alt="{{ $image[1] }}">
             @endforeach
         </section>
     </div>
     <main class="overflow-hidden">
         <section
-            class="py-6 px-6 lg:px-14 bg-orange-400 flex items-center justify-center gap-8 lg:gap-20 overflow-y-scroll">
+            class="py-6 px-6 lg:px-14 bg-{{ $page->color }}-400 flex items-center justify-center gap-8 lg:gap-20 overflow-y-scroll">
             <img src="/assets/images/abaxx-logo.svg" alt="Abaxx's logo" class="h-8">
             <img src="/assets/images/lynden-logo.svg" alt="The Lynden Lane Co's logo" class="h-16">
             <img src="/assets/images/web-team-logo.svg" alt="The Web Team's logo" class="h-8">
@@ -93,7 +124,7 @@
             <img src="/assets/images/ewc-logo.svg" alt="European Watch Company's logo" class="h-8">
             <img src="/assets/images/fanxp-logo.svg" alt="FanXP's logo" class="h-10">
         </section>
-        <section id="about" class="bg-orange-50 pt-32 pb-72">
+        <section id="about" class="bg-{{ $page->color }}-50 pt-32 pb-72">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
@@ -102,8 +133,9 @@
                 <div class="grid grid-cols-1 md:grid-cols-3 mt-16">
                     @foreach ($page->steps as $step)
                         <div
-                            class="bg-white border-2 border-orange-200 p-8 lg:py-16 lg:px-20 flex flex-col items-center -m-px">
-                            <i class="fa-thin text-orange-400 h-16 w-16 md:h-20 md:w-20 {{ $step[0] }}"></i>
+                            class="bg-white border-2 border-{{ $page->color }}-200 p-8 lg:py-16 lg:px-20 flex flex-col items-center -m-px">
+                            <i
+                                class="fa-thin text-{{ $page->color }}-400 h-16 w-16 md:h-20 md:w-20 {{ $step[0] }}"></i>
                             <h3
                                 class="text-center mt-4 text-4 lg:text-5 text-gray-900 -tracking-[-0.5px] leading-snug">
                                 {{ $step[1] }}
@@ -114,7 +146,8 @@
             </div>
         </section>
         <section class="-mt-40">
-            <div class="bg-noise flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
+            <div
+                class="bg-noise-{{ $page->color }} flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
                 <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-4xl -tracking-[1px]">
                     {{ $page->quote }}
                 </h2>
@@ -134,7 +167,8 @@
                 <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-16 gap-8">
                     @foreach ($page->benefits as $benefit)
                         <div class="bg-white flex flex-col items-center px-8 md:py-2 xl:py-0">
-                            <i class="fa-thin text-orange-400 h-16 w-16 md:h-20 md:w-20 {{ $benefit[0] }}"></i>
+                            <i
+                                class="fa-thin text-{{ $page->color }}-400 h-16 w-16 md:h-20 md:w-20 {{ $benefit[0] }}"></i>
                             <h3
                                 class="text-center mt-4 text-5 lg:text-6 text-gray-900 font-medium -tracking-[-0.5px] leading-snug">
                                 {{ $benefit[1] }}
@@ -147,7 +181,7 @@
                 </div>
             </div>
         </section>
-        <section id="services" class="py-32 bg-noise">
+        <section id="services" class="py-32 bg-noise-{{ $page->color }}">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto grid grid-cols-1 xl:grid-cols-3 gap-8">
                 <div>
                     <div class="max-w-sm">
@@ -178,7 +212,7 @@
             </div>
         </section>
 
-        <section id="pricing" class="bg-orange-50 py-32 ">
+        <section id="pricing" class="bg-{{ $page->color }}-50 py-32 ">
             <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <div class="max-w-lg mx-auto">
                     <h2
@@ -192,7 +226,7 @@
                 </div>
                 <div class="grid grid-cols-1 lg:grid-cols-3 mt-16">
                     @foreach ($page->plans as $plan)
-                        <div class="bg-white border-2 border-orange-200 p-10 flex flex-col -m-px">
+                        <div class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col -m-px">
                             <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                                 {{ $plan[0] }}
                             </h2>
@@ -204,7 +238,7 @@
                             <p class="mt-1 text-3 text-gray-700 -tracking-[-0.5px] leading-snug">{{ $plan[3] }}
                             </p>
                             <a href="{{ $plan[4] }}"
-                                class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-8 hover:bg-orange-500 transition-slow">
+                                class="-tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 hover:bg-{{ $page->color }}-500 transition-slow">
                                 Get started
                                 <i class="fa-light
                                 fa-arrow-right-long h-5 w-5"></i>
@@ -216,7 +250,7 @@
                         </div>
                     @endforeach
                     <div
-                        class="bg-white border-2 border-orange-200 p-10 flex flex-col xl:items-center -m-px bg-noise xl:col-span-2">
+                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col xl:items-center -m-px bg-noise-{{ $page->color }} xl:col-span-2">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->add_on_header }}
                         </h2>
@@ -228,7 +262,7 @@
                             <a class="underline" target="_blank" href="{{ $page->add_on_url }}">Learn more</a>
                         </p>
                     </div>
-                    <div class="bg-white border-2 border-orange-200 p-10 flex flex-col -m-px">
+                    <div class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col -m-px">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->referral_header }}
                         </h2>
@@ -261,27 +295,30 @@
                                 <dt class="text-5 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                                     {{ $faq[0] }}</dt>
                                 <dd class="mt-2 text-4 text-gray-700 -tracking-[-0.5px] leading-relaxed">
-                                    {{ $faq[1] }}</dd>
+                                    {!! $faq[1] !!}</dd>
                             </div>
                         @endforeach
                     </dl>
                 </div>
             </div>
         </section>
-        <section class="py-32 bg-orange-50">
-            <div class="bg-noise flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
-                <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-2xl -tracking-[1px]">
+        <section class="py-32 bg-{{ $page->color }}-50">
+            <div
+                class="bg-noise-{{ $page->color }} flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
+
+                <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-2xl -tracking-[1px] z-10">
                     {{ $page->cta_header }}
                 </h2>
                 <a href="#pricing"
-                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-orange-400 text-white inline-flex items-center justify-center gap-4 mt-8 mx-auto hover:bg-orange-500 transition-slow">
+                    class="z-10 -tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 mx-auto hover:bg-{{ $page->color }}-500 transition-slow">
                     Get started
                     <i class="fa-light fa-arrow-right-long h-5 w-5"></i>
                 </a>
+
             </div>
         </section>
     </main>
-    <footer class="bg-orange-100 py-32">
+    <footer class="bg-{{ $page->color }}-100 py-32">
         <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto flex flex-col items-center gap-6">
             <a href="#top" class="flex-shrink-0">
                 <img src="{{ $page->logo_path }}" alt="The Markham Square logo" class="h-8 xl:h-12">

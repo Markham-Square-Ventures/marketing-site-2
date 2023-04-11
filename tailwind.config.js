@@ -8,6 +8,24 @@ module.exports = {
     ],
     { dot: true }
   ),
+  safelist: [
+    {
+      pattern: /bg-(orange|green|purple)-(50|100|200|400|500)/,
+      variants: ["selection", "hover"],
+    },
+    {
+      pattern: /text-(orange|green|purple)-(300|400)/,
+    },
+    {
+      pattern: /border-(orange|green|purple)-(200)/,
+    },
+    {
+      pattern: /from-(orange|green|purple)-(100)/,
+    },
+    {
+      pattern: /bg-noise-(orange|green|purple)/,
+    },
+  ],
   theme: {
     fontSize: {
       3: ".75rem",
@@ -50,7 +68,9 @@ module.exports = {
         "hero-gradient": "linear-gradient(180deg, #FFEDE5 0%, #FFFFFF 77.05%)",
         "services-gradient":
           "linear-gradient(90deg, #FFEDE5 0%, #FFEDE5 62.5%, #FFFCFA 62.51%, #FFFCFA 100%)",
-        noise: "url('/assets/images/bg-noise.svg')",
+        "noise-orange": "url('/assets/images/bg-noise-orange.svg')",
+        "noise-green": "url('/assets/images/bg-noise-green.svg')",
+        "noise-purple": "url('/assets/images/bg-noise-purple.svg')",
       },
       boxShadow: {
         "outline-orange": "-8px 8px 0 0 #FFC2A6",

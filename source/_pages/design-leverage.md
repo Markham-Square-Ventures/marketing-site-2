@@ -1,5 +1,6 @@
 ---
 extends: _layouts.page
+color: orange
 seo_title: Design Leverage
 seo_description: Design subscriptions to elevate your digital products.
 seo_site_name: Design Leverage
@@ -14,15 +15,15 @@ hero_images:
   [
     [
       "/assets/images/fanxp-case-study.jpg",
-      "Higlighted assets created for FanXP by Markham Square.",
+      "Higlighted assets created for FanXP by Design Leverage.",
     ],
     [
       "/assets/images/lynden-case-study.jpg",
-      "Higlighted assets created for Lynden Lane by Markham Square.",
+      "Higlighted assets created for Lynden Lane by Design Leverage.",
     ],
     [
       "/assets/images/sol-dev-case-study.jpg",
-      "Higlighted assets created for soldev.app by Markham Square.",
+      "Higlighted assets created for soldev.app by Design Leverage.",
     ],
   ]
 process_header: Say hello to a simple process that just works
@@ -118,7 +119,7 @@ faqs:
     ],
     [
       "How long do requests take?",
-      "We typically complete simple requests in 48 hours (two business days). Larger, more compliclated requests take longer. We provide estimates for each request, so you'll have a clear understanding of the timeline.",
+      "We typically complete simple requests in 48 hours (two business days). Larger, more complicated requests take longer. We provide estimates for each request, so you'll have a clear understanding of the timeline.",
     ],
     [
       "Do I own the rights?",
