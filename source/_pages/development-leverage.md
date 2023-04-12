@@ -101,7 +101,7 @@ plans:
     ],
   ]
 add_on_header: Need a design?
-add_on_text: Elevate your digital product's experience our design subscriptions.
+add_on_text: Elevate your digital product's experience with our design subscriptions.
 add_on_url: /design-leverage
 referral_header: Refer & earn
 referral_text: Receive a 5% monthly recurring commission for every referral you make.
