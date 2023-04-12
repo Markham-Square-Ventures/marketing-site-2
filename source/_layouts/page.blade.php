@@ -51,6 +51,16 @@
     <script defer src="{{ mix('js/thin.min.js', 'assets/build') }}"></script>
     <script defer src="{{ mix('js/light.min.js', 'assets/build') }}"></script>
     <script defer src="{{ mix('js/fontawesome.min.js', 'assets/build') }}"></script>
+
+    <script>
+        (function(w, r) {
+            w._rwq = r;
+            w[r] = w[r] || function() {
+                (w[r].q = w[r].q || []).push(arguments)
+            }
+        })(window, 'rewardful');
+    </script>
+    <script async src='https://r.wdfl.co/rw.js' data-rewardful='10b722'></script>
 </head>
 
 <body class="text-gray-900 font-primary antialiased selection:bg-{{ $page->color }}-400 selection:text-white">
@@ -74,7 +84,7 @@
                     <span
                         class="bg-{{ $page->color }}-500 select-none h-4 w-4  inline-block translate-y-[2.55rem] md:translate-y-[3rem] -translate-x-1.5 md:-translate-x-2">&nbsp;</span>
                 </h1>
-                <p class=" text-gray-700 text-5 text-center mt-10 mx-auto -tracking-[0.5px]">
+                <p class="text-gray-700 text-5 text-center mt-10 mx-auto -tracking-[0.5px]">
                     {{ $page->hero_subtitle }}
                 </p>
                 <a href="#pricing"
@@ -250,7 +260,7 @@
                         </div>
                     @endforeach
                     <div
-                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col xl:items-center -m-px bg-noise-{{ $page->color }} xl:col-span-2">
+                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col xl:items-center -m-px bg-noise-{{ $page->color }} xl:col-span-3">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->add_on_header }}
                         </h2>
@@ -262,7 +272,7 @@
                             <a class="underline" target="_blank" href="{{ $page->add_on_url }}">Learn more</a>
                         </p>
                     </div>
-                    <div class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col -m-px">
+                    {{-- <div class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col -m-px">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->referral_header }}
                         </h2>
@@ -271,9 +281,9 @@
                         </p>
                         <p class="mt-3 text-gray-700 text-4 -tracking-[0.5px] hover:text-gray-900 transition-slow">
                             <a class="underline" target="_blank" href="{{ $page->referral_url }}">Join today</a>
-                        </p>
-                    </div>
+                        </p> --}}
                 </div>
+            </div>
             </div>
         </section>
 
@@ -328,10 +338,10 @@
                 <a href="#services" class="text-gray-700 text-4 hover:text-gray-900 transition-fast">services</a>
                 <a href="#pricing" class="text-gray-700 text-4 hover:text-gray-900 transition-fast">pricing</a>
                 <a href="#faqs" class="text-gray-700 text-4 hover:text-gray-900 transition-fast">faqs</a>
-                <a href="#faqs" class="text-gray-700 text-4 hover:text-gray-900 transition-fast">terms of
+                {{-- <a href="#faqs" class="text-gray-700 text-4 hover:text-gray-900 transition-fast">terms of
                     use</a>
                 <a href="#faqs" class="text-gray-700 text-4 hover:text-gray-900 transition-fast">privacy
-                    policy</a>
+                    policy</a> --}}
             </nav>
             <p class="text-gray-700 text-3 md:text-4">&copy; 2023 Markham Square.
                 All Rights Reserved.</p>

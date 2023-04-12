@@ -55,6 +55,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+
+    <script>
+        (function(w, r) {
+            w._rwq = r;
+            w[r] = w[r] || function() {
+                (w[r].q = w[r].q || []).push(arguments)
+            }
+        })(window, 'rewardful');
+    </script>
+    <script async src='https://r.wdfl.co/rw.js' data-rewardful='10b722'></script>
 </head>
 
 <body class="text-gray-900 font-sans antialiased selection:bg-orange-400 selection:text-white">
