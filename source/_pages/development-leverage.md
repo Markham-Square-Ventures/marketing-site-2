@@ -61,7 +61,7 @@ benefits:
     [
       "fa-gem",
       "Quality you'll love",
-      "It's not our first rodeo – our years of experience will make your designs shine.",
+      "It's not our first rodeo – our years of experience will make your projects shine.",
     ],
     [
       "fa-infinity",
