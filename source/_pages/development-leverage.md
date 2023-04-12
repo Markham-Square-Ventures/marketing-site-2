@@ -71,10 +71,27 @@ benefits:
   ]
 services:
   [
-    ["Digital products", "Websites", "Landing pages", "Mobile-first", "MVPs"],
-    ["SaaS", "No/low code", "Zapier", "Custom development", "APIs"],
-    ["HTML", "CSS", "JavaScript", "PHP", "Tailwind CSS"],
-    ["React.js", "Vue.js", "Next.js", "Laravel", "AI"],
+    "Digital products",
+    "Websites",
+    "Landing pages",
+    "Mobile-first",
+    "MVPs",
+    "SaaS",
+    "No/low code",
+    "Zapier",
+    "Custom development",
+    "APIs",
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "PHP",
+    "Tailwind CSS",
+    "React.js",
+    "Vue.js",
+    "Next.js",
+    "Laravel",
+    "AI",
+    "TDD",
   ]
 plans:
   [
@@ -146,5 +163,5 @@ faqs:
       "When we start a new task, we'll work with you to ensure that we have just enough access to complete the work requested. This typically looks like adding us to your GitHub repository.",
     ],
   ]
-cta_header: Join Development Leverage and bring your digital product's experience to life
+cta_header: Leverage a development subscription to bring your digital product to life
 ---

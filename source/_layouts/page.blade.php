@@ -69,8 +69,8 @@
             <nav class="flex justify-center items-center gap-8 md:gap-16">
                 <a href="#about" class="text-gray-700 text-3.5 md:text-4 hover:text-gray-900 transition-fast">about</a>
                 <a href="#services"
-                    class="text-gray-700 text-3.5 md:text-4 hover:text-gray-900 transition-fast">services</a>
-                <a href="{{ $page->getUrl() }}" class="flex-shrink-0">
+                    class="text-gray-700 text-3.5 md:text-4 hover:text-gray-900 transition-fast hidden md:inline">services</a>
+                <a href="{{ $page->getUrl() }}" class="flex-shrink-0 order-first md:order-none">
                     <img src="{{ $page->logo_path }}" alt="The Markham Square logo" class="h-8 xl:h-10">
                 </a>
                 <a href="#pricing"
@@ -79,10 +79,10 @@
             </nav>
             <div class="lg:max-w-3xl lg:mx-auto mt-24 lg:mt-32 flex flex-col">
                 <h1
-                    class="text-16 md:text-18 font-black text-center relative leading-[100%] text-gray-900 -tracking-[2.5px]">
+                    class="text-12 md:text-16 lg:text-18 font-black text-center relative leading-[100%] text-gray-900 -tracking-[2.5px]">
                     {{ $page->hero_title }}
                     <span
-                        class="bg-{{ $page->color }}-500 select-none h-4 w-4  inline-block translate-y-[2.55rem] md:translate-y-[3rem] -translate-x-1.5 md:-translate-x-2">&nbsp;</span>
+                        class="bg-{{ $page->color }}-500 select-none h-3 w-3 md:h-4 md:w-4 inline-block translate-y-[2rem] md:translate-y-[2.55rem] lg:translate-y-[3rem] -translate-x-0.5 md:-translate-x-1.5 lg:-translate-x-2">&nbsp;</span>
                 </h1>
                 <p class="text-gray-700 text-5 text-center mt-10 mx-auto -tracking-[0.5px]">
                     {{ $page->hero_subtitle }}
@@ -116,7 +116,7 @@
             </g>
         </svg>
         <section
-            class="pb-20 px-6 2xl:px-0 flex md:grid grid-cols-3 gap-4 lg:gap-6 lg:max-w-screen-2xl lg:mx-auto mt-20 overflow-y-scroll z-10 relative">
+            class="pb-20 px-6 md:px-10 2xl:px-0 flex md:grid grid-cols-3 gap-4 lg:gap-6 lg:max-w-screen-2xl lg:mx-auto mt-20 overflow-y-scroll z-10 relative">
             @foreach ($page->hero_images as $image)
                 <img src="{{ $image[0] }}"
                     class="w-[320px] h-[320px] lg:h-full lg:w-full object-cover select-none"
@@ -126,7 +126,7 @@
     </div>
     <main class="overflow-hidden">
         <section
-            class="py-6 px-6 lg:px-14 bg-{{ $page->color }}-400 flex items-center justify-center gap-8 lg:gap-20 overflow-y-scroll">
+            class="py-6 px-6 lg:px-14 bg-{{ $page->color }}-400 flex items-center md:justify-center gap-8 lg:gap-20 overflow-y-scroll">
             <img src="/assets/images/abaxx-logo.svg" alt="Abaxx's logo" class="h-8">
             <img src="/assets/images/lynden-logo.svg" alt="The Lynden Lane Co's logo" class="h-16">
             <img src="/assets/images/web-team-logo.svg" alt="The Web Team's logo" class="h-8">
@@ -135,7 +135,7 @@
             <img src="/assets/images/fanxp-logo.svg" alt="FanXP's logo" class="h-10">
         </section>
         <section id="about" class="bg-{{ $page->color }}-50 pt-32 pb-72">
-            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+            <div class="px-6 md:px-10 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
                     {{ $page->process_header }}
@@ -169,7 +169,7 @@
             </div>
         </section>
         <section class="py-32">
-            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+            <div class="px-6 md:px-10 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 max-w-lg leading-none mx-auto">
                     {{ $page->benefits_header }}
@@ -192,7 +192,7 @@
             </div>
         </section>
         <section id="services" class="py-32 bg-noise-{{ $page->color }}">
-            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto grid grid-cols-1 xl:grid-cols-3 gap-8">
+            <div class="px-6 md:px-10 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto grid grid-cols-1 xl:grid-cols-3 gap-8">
                 <div>
                     <div class="max-w-sm">
                         <h2
@@ -207,23 +207,21 @@
                         </p>
                     </div>
                 </div>
-                <div class="xl:mt-0 flex flex-col gap-3 xl:items-center xl:col-span-2">
-                    @foreach ($page->services as $row)
-                        <div class="flex gap-3 flex-wrap">
-                            @foreach ($row as $item)
-                                <p
-                                    class="flex-shrink-0 text-center bg-white px-5 py-4 text-4 xl:text-5 text-gray-900 leading-none -tracking-[0.5px]">
-                                    {{ $item }}
-                                </p>
-                            @endforeach
-                        </div>
-                    @endforeach
+                <div class="xl:col-span-2">
+                    <div class="flex flex-wrap max-w-3xl xl:max-w-4xl xl:mx-auto gap-3 xl:justify-center">
+                        @foreach ($page->services as $item)
+                            <p
+                                class="flex-shrink-0 text-center bg-white px-5 py-4 text-4 xl:text-5 text-gray-900 leading-none -tracking-[0.5px]">
+                                {{ $item }}
+                            </p>
+                        @endforeach
+                    </div>
                 </div>
             </div>
         </section>
 
         <section id="pricing" class="bg-{{ $page->color }}-50 py-32 ">
-            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+            <div class="px-6 md:px-10 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <div class="max-w-lg mx-auto">
                     <h2
                         class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 leading-none">
@@ -247,7 +245,7 @@
                             </h3>
                             <p class="mt-1 text-3 text-gray-700 -tracking-[-0.5px] leading-snug">{{ $plan[3] }}
                             </p>
-                            <a href="{{ $plan[4] }}"
+                            <a href="{{ $plan[4] }}" target="_blank"
                                 class="-tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 hover:bg-{{ $page->color }}-500 transition-slow">
                                 Get started
                                 <i class="fa-light
@@ -288,7 +286,7 @@
         </section>
 
         <section id="faqs" class="bg-white py-32">
-            <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
+            <div class="px-6 md:px-10 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto">
                 <h2
                     class="text-10 md:text-12 font-medium text-center relative -tracking-[2.5px] text-gray-900 leading-none">
                     Frequently asked questions</h2>
@@ -297,9 +295,9 @@
                         class="text-gray-700 -tracking-[0.5px] text-center hover:text-gray-900 transition-slow underline"
                         target="_blank" href="{{ $page->calendly_url }}">Book a
                         call</a></p>
-                <div class="mt-20">
+                <div class="mt-16">
                     <dl
-                        class="space-y-16 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
+                        class="space-y-8 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-16 sm:space-y-0 lg:grid-cols-3 lg:gap-x-10">
                         @foreach ($page->faqs as $faq)
                             <div>
                                 <dt class="text-5 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
@@ -312,9 +310,9 @@
                 </div>
             </div>
         </section>
-        <section class="py-32 bg-{{ $page->color }}-50">
+        <section class="md:py-32 bg-{{ $page->color }}-50 2xl:px-0">
             <div
-                class="bg-noise-{{ $page->color }} flex flex-col items-center justify-center mx-auto max-w-7xl p-20">
+                class="bg-noise-{{ $page->color }} flex flex-col items-center justify-center mx-auto max-w-7xl p-8 md:p-20">
 
                 <h2 class="text-10 text-gray-900 font-bold leading-none text-center max-w-2xl -tracking-[1px] z-10">
                     {{ $page->cta_header }}
@@ -329,7 +327,7 @@
         </section>
     </main>
     <footer class="bg-{{ $page->color }}-100 py-32">
-        <div class="px-6 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto flex flex-col items-center gap-6">
+        <div class="px-6 md:px-10 2xl:px-0 lg:max-w-screen-2xl lg:mx-auto flex flex-col items-center gap-6">
             <a href="#top" class="flex-shrink-0">
                 <img src="{{ $page->logo_path }}" alt="The Markham Square logo" class="h-8 xl:h-12">
             </a>

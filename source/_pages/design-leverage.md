@@ -71,15 +71,22 @@ benefits:
   ]
 services:
   [
-    ["Product design", "Web design", "Landing pages", "Mobile apps"],
-    ["Service design", "AI design", "User & market research", "Wireframes"],
-    ["UI design", "UX design", "Design systems", "Design education"],
-    [
-      "Digital products",
-      "Design hiring",
-      "Management guidance",
-      "Design coaching",
-    ],
+    "Product design",
+    "Web design",
+    "Landing pages",
+    "Mobile apps",
+    "Service design",
+    "AI design",
+    "User & market research",
+    "Wireframes",
+    "UI design",
+    "UX design",
+    "Design systems",
+    "Design education",
+    "Digital products",
+    "Design hiring",
+    "Management guidance",
+    "Design coaching",
   ]
 plans:
   [
@@ -138,5 +145,5 @@ faqs:
       "Due to the time-intensive, bespoke nature of the work, we do not offer refunds. If you're on the fence, we recommend trying a monthly plan to see if we're a fit for your needs.",
     ],
   ]
-cta_header: Join Design Leverage and elevate your digital product's experience
+cta_header: Leverage a design subscription to elevate your digital product
 ---
