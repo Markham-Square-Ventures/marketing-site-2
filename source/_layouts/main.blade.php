@@ -51,10 +51,11 @@
     <meta name="theme-color" content="#ffffff">
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;600;700&display=swap" rel="stylesheet">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
+    <script defer src="{{ mix('js/thin.min.js', 'assets/build') }}"></script>
+    <script defer src="{{ mix('js/light.min.js', 'assets/build') }}"></script>
+    <script defer src="{{ mix('js/fontawesome.min.js', 'assets/build') }}"></script>
 
     <script>
         (function(w, r) {
@@ -67,7 +68,7 @@
     <script async src='https://r.wdfl.co/rw.js' data-rewardful='10b722'></script>
 </head>
 
-<body class="text-gray-900 font-sans antialiased selection:bg-orange-400 selection:text-white">
+<body class="text-gray-900 font-primary antialiased selection:bg-orange-400 selection:text-white">
     @yield('body')
 </body>
 

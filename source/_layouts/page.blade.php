@@ -88,7 +88,7 @@
                     {{ $page->hero_subtitle }}
                 </p>
                 <a href="#pricing"
-                    class="-tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-10 mx-auto hover:bg-{{ $page->color }}-500 transition-slow">
+                    class="-tracking-[0.5px] text-5 px-6 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-10 mx-auto hover:bg-{{ $page->color }}-500 transition-slow">
                     Work with us
                     <i class="fa-light fa-arrow-right-long h-5 w-5"></i>
                 </a>
@@ -246,7 +246,7 @@
                             <p class="mt-1 text-3 text-gray-700 -tracking-[-0.5px] leading-snug">{{ $plan[3] }}
                             </p>
                             <a href="{{ $plan[4] }}" target="_blank"
-                                class="-tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 hover:bg-{{ $page->color }}-500 transition-slow">
+                                class="-tracking-[0.5px] text-5 px-6 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 hover:bg-{{ $page->color }}-500 transition-slow">
                                 Get started
                                 <i class="fa-light
                                 fa-arrow-right-long h-5 w-5"></i>
@@ -318,11 +318,10 @@
                     {{ $page->cta_header }}
                 </h2>
                 <a href="#pricing"
-                    class="z-10 -tracking-[0.5px] text-5 px-5 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 mx-auto hover:bg-{{ $page->color }}-500 transition-slow">
+                    class="z-10 -tracking-[0.5px] text-5 px-6 py-4 bg-{{ $page->color }}-400 text-white inline-flex items-center justify-center gap-4 mt-8 mx-auto hover:bg-{{ $page->color }}-500 transition-slow">
                     Get started
                     <i class="fa-light fa-arrow-right-long h-5 w-5"></i>
                 </a>
-
             </div>
         </section>
     </main>

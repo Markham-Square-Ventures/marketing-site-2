@@ -1,6 +1,6 @@
 ---
 extends: _layouts.page
-color: orange
+color: purple
 seo_title: Design Leverage
 seo_description: Design subscriptions to elevate your digital products.
 seo_site_name: Design Leverage
