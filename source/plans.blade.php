@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="{{ $page->getUrl() }}">
     @include('_partials.seo', [
-        'title' => $page->seo_title,
-        'description' => $page->seo_description,
-        'image' => $page->seo_img,
-        'image_alt' => $page->seo_img_alt,
-        'site_name' => $page->seo_site_name,
+        'title' => 'Plans | Markham Square',
+        'description' => 'Design + development subscriptions to elevate your digital products.',
+        'image' => $page->baseUrl . '/assets/images/seo-img.jpg',
+        'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
+        'site_name' => 'Markham Square',
     ])
 
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon-leverage/orange/apple-icon-57x57.png">
