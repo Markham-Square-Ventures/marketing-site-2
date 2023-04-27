@@ -44,13 +44,4 @@
             </g>
         </svg>
     </div>
-    <script>
-        const urlParams = new URLSearchParams(location.search);
-
-        if (urlParams.has('email')) {
-            rewardful('convert', {
-                email: urlParams.email
-            });
-        }
-    </script>
 @endsection

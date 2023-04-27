@@ -258,15 +258,15 @@
                         </div>
                     @endforeach
                     <div
-                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col xl:items-center -m-px bg-noise-{{ $page->color }} xl:col-span-3">
+                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col lg:items-center -m-px bg-noise-{{ $page->color }} lg:col-span-3">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->add_on_header }}
                         </h2>
-                        <p class="mt-1 text-4 text-gray-700 -tracking-[-0.5px] leading-snug max-w-sm xl:text-center">
+                        <p class="mt-1 text-4 text-gray-700 -tracking-[-0.5px] leading-snug max-w-sm lg:text-center">
                             {{ $page->add_on_text }}
                         </p>
                         <p
-                            class="mt-3 text-gray-700 text-4 -tracking-[0.5px] xl:text-center hover:text-gray-900 transition-slow">
+                            class="mt-3 text-gray-700 text-4 -tracking-[0.5px] lg:text-center hover:text-gray-900 transition-slow">
                             <a class="underline" target="_blank" href="{{ $page->add_on_url }}">Learn more</a>
                         </p>
                     </div>
@@ -281,7 +281,6 @@
                             <a class="underline" target="_blank" href="{{ $page->referral_url }}">Join today</a>
                         </p> --}}
                 </div>
-            </div>
             </div>
         </section>
 

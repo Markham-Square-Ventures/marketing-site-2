@@ -1,7 +1,7 @@
 @extends('_layouts.main')
 
 @section('body')
-    <div id="top" class="bg-gradient-to-b from-orange-100 to-white overflow-hidden relative min-h-screen">
+    <div id="top" class="bg-gradient-to-b from-purple-100 to-white overflow-hidden relative min-h-screen">
         <header class="pt-6 lg:pt-10 px-6 lg:px-14 z-10 relative">
             <nav class="flex justify-center items-center gap-8 md:gap-16">
                 <a href="#about" class="text-gray-700 text-3.5 md:text-4 hover:text-gray-900 transition-fast">about</a>
@@ -17,7 +17,7 @@
                     class="text-16 md:text-18 font-black text-center relative leading-[100%] text-gray-900 -tracking-[2.5px]">
                     Thank you
                     <span
-                        class="bg-orange-500 select-none h-4 w-4  inline-block translate-y-[2.55rem] md:translate-y-[3rem] -translate-x-1.5 md:-translate-x-2">&nbsp;</span>
+                        class="bg-purple-500 select-none h-4 w-4  inline-block translate-y-[2.55rem] md:translate-y-[3rem] -translate-x-1.5 md:-translate-x-2">&nbsp;</span>
                 </h1>
                 <p class="text-gray-700 text-5 text-center mt-10 mx-auto -tracking-[0.5px]">
                     You will receive an email shortly with instructions on how to access your request dashboard!
@@ -29,7 +29,7 @@
             </div>
         </header>
         <svg width="384" height="1407" viewBox="0 0 384 1407" fill="none" xmlns="http://www.w3.org/2000/svg"
-            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto select-none text-orange-300">
+            class="hidden lg:block absolute z-0 -right-4 top-96 w-80 h-auto select-none text-purple-300">
             <mask id="mask0_88_348" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0"
                 width="720" height="1435">
                 <rect x="2" y="2" width="396" height="1431" stroke="currentColor" stroke-width="4" />
@@ -43,13 +43,4 @@
             </g>
         </svg>
     </div>
-    <script>
-        const urlParams = new URLSearchParams(location.search);
-
-        if (urlParams.has('email')) {
-            rewardful('convert', {
-                email: urlParams.email
-            });
-        }
-    </script>
 @endsection
