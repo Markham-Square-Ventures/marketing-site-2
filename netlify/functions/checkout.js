@@ -28,9 +28,7 @@ export const handler = async (event) => {
     success_url: data.plan.includes("design")
       ? "https://markhamsq.com/thank-you-design"
       : "https://markhamsq.com/thank-you-development",
-    cancel_url: data.plan.includes("design")
-      ? "https://markhamsq.com/design-leverage/plans"
-      : "https://markhamsq.com/development-leverage/plans",
+    cancel_url: "https://markhamsq.com/plans",
     line_items: [{ price: price, quantity: 1 }],
     mode: "subscription",
     client_reference_id: data.clientReferenceId,

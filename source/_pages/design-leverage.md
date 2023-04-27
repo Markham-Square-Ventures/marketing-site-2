@@ -117,7 +117,7 @@ add_on_text: Bring your designs to life with our engineering & development subsc
 add_on_url: /development-leverage
 referral_header: Refer & earn
 referral_text: Receive a 5% monthly recurring commission for every referral you make.
-referral_url: "#"
+referral_url: "https://markham-square.getrewardful.com/signup"
 faqs:
   [
     [

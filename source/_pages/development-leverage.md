@@ -122,7 +122,7 @@ add_on_text: Elevate your digital product's experience with our design subscript
 add_on_url: /design-leverage
 referral_header: Refer & earn
 referral_text: Receive a 5% monthly recurring commission for every referral you make.
-referral_url: "#"
+referral_url: "https://markham-square.getrewardful.com/signup"
 faqs:
   [
     [

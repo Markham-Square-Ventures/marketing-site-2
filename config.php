@@ -17,8 +17,6 @@ return [
         'pages' => [
             'path' => '{filename}',
         ],
-        'plans' => [
-            'path' => '{filename}/plans',
-        ],
+
     ],
 ];

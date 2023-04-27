@@ -258,7 +258,7 @@
                         </div>
                     @endforeach
                     <div
-                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col lg:items-center -m-px bg-noise-{{ $page->color }} lg:col-span-3">
+                        class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col lg:items-center -m-px bg-noise-{{ $page->color }} lg:col-span-2">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->add_on_header }}
                         </h2>
@@ -270,7 +270,7 @@
                             <a class="underline" target="_blank" href="{{ $page->add_on_url }}">Learn more</a>
                         </p>
                     </div>
-                    {{-- <div class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col -m-px">
+                    <div class="bg-white border-2 border-{{ $page->color }}-200 p-10 flex flex-col -m-px">
                         <h2 class="text-6 font-medium text-gray-900 -tracking-[-0.5px] leading-snug">
                             {{ $page->referral_header }}
                         </h2>
@@ -279,9 +279,9 @@
                         </p>
                         <p class="mt-3 text-gray-700 text-4 -tracking-[0.5px] hover:text-gray-900 transition-slow">
                             <a class="underline" target="_blank" href="{{ $page->referral_url }}">Join today</a>
-                        </p> --}}
+                        </p>
+                    </div>
                 </div>
-            </div>
         </section>
 
         <section id="faqs" class="bg-white py-32">

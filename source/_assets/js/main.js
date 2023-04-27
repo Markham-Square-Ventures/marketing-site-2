@@ -37,6 +37,3 @@ stripeButtons.forEach((button) => {
     redirectToStripe(plan);
   });
 });
-
-// TODO: Add via integration
-// TODO: Add success/cancel pages
