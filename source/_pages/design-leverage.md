@@ -138,7 +138,7 @@ faqs:
     ],
     [
       "Who's creating my designs?",
-      "Design Leverage is brought to you by the team at Markham Square. Our highly skilled & experienced designers will take of your needs.",
+      "Design Leverage is brought to you by the team at Markham Square. Our highly skilled & experienced designers will take care of your needs.",
     ],
     [
       "Can I get a refund?",
