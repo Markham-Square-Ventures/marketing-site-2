@@ -148,7 +148,7 @@ faqs:
     ],
     [
       "Who's creating my code?",
-      "Development Leverage is brought to you by the team at Markham Square. Our highly skilled & experienced developers will take of your needs.",
+      "Development Leverage is brought to you by the team at Markham Square. Our highly skilled & experienced developers will take care of your needs.",
     ],
     [
       "Can I get a refund?",
