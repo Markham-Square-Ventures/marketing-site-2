@@ -20,7 +20,7 @@ const redirectToStripe = async (plan) => {
       return response.json();
     })
     .catch((error) => {
-      window.location.href = "https://markhamsq.com";
+      window.location.href = "https://www.markhamsq.com";
     });
 
   window.location.href = response.url;

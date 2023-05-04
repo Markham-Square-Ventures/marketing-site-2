@@ -26,9 +26,9 @@ export const handler = async (event) => {
 
   const session = await stripe.checkout.sessions.create({
     success_url: data.plan.includes("design")
-      ? "https://markhamsq.com/thank-you-design"
-      : "https://markhamsq.com/thank-you-development",
-    cancel_url: "https://markhamsq.com/plans",
+      ? "https://www.markhamsq.com/thank-you-design"
+      : "https://www.markhamsq.com/thank-you-development",
+    cancel_url: "https://www.markhamsq.com/plans",
     line_items: [{ price: price, quantity: 1 }],
     mode: "subscription",
     client_reference_id: data.clientReferenceId,
