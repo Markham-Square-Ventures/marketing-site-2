@@ -68,7 +68,7 @@
     <script async src='https://r.wdfl.co/rw.js' data-rewardful='10b722'></script>
 </head>
 
-<body class="text-gray-900 font-primary antialiased selection:bg-orange-400 selection:text-white">
+<body class="font-primary antialiased selection:bg-orange-400 selection:text-white">
     @yield('body')
 </body>
 

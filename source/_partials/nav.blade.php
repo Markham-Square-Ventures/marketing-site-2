@@ -1,5 +1,5 @@
-<nav class="bg-tile bg-repeat px-7 md:px-0 pt-10 pb-20 flex justify-center">
-    <div class="w-full max-w-[1000px] flex justify-between gap-5">
+<nav class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center">
+    <div class="w-full max-w-[1000px] flex justify-between">
         <ul class="flex items-center gap-10">
             <li class="flex-shrink-0">
                 <a href="/">
