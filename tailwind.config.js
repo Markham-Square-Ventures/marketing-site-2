@@ -71,6 +71,7 @@ module.exports = {
         "noise-orange": "url('/assets/images/bg-noise-orange.svg')",
         "noise-green": "url('/assets/images/bg-noise-green.svg')",
         "noise-purple": "url('/assets/images/bg-noise-purple.svg')",
+        tile: "url('/assets/images/bg-tile.svg')",
       },
       boxShadow: {
         "outline-orange": "-8px 8px 0 0 #FFC2A6",
