@@ -44,7 +44,7 @@
                     Our expertise
                 </h1>
                 <div class="grid grid-cols-2 gap-10 mt-8">
-                    <ul>
+                    <ul class="col-span-2 md:col-span-1">
                         <li
                             class="text-neutral-500 font-light -tracking-[1px] leading-[32px] text-5 pb-4 border-b-[0.5px] border-neutral-300">
                             Services</li>
@@ -76,7 +76,7 @@
                             class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
                             Digital & AI Automation</li>
                     </ul>
-                    <ul>
+                    <ul class="col-span-2 md:col-span-1">
                         <li
                             class="text-neutral-500 font-light -tracking-[1px] leading-[32px] text-5 pb-4 border-b-[0.5px] border-neutral-300">
                             Industries</li>
@@ -112,7 +112,7 @@
             </div>
         </section>
         <section class="bg-white px-7 lg:px-0 py-20 flex justify-center ">
-            <div class="w-full max-w-[1000px] bg-tile bg-repeat p-20">
+            <div class="w-full max-w-[1000px] bg-tile bg-repeat p-8 md:p-20">
                 <h3 class="text-white font-light -tracking-[1px] leading-[44px] text-7">"We came to them with the task of
                     building an aesthetically-driven, design-forward, functional site.
                     They took our ideas, built-upon them, and translated them into a rad digital experience. They are a one
