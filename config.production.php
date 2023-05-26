@@ -14,10 +14,10 @@ return [
             },
             'author' => 'Markham Square',
             'sort' => '-date',
-            'path' => 'essays/{filename}',
+            'path' => 'blog/{filename}',
         ],
-        'pages' => [
-            'path' => '{filename}',
+        'case_study' => [
+            'path' => 'case-study/{filename}',
         ],
     ],
     'isSelected' => function ($page, $section) {

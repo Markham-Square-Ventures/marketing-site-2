@@ -14,10 +14,20 @@
             'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
             'site_name' => 'Markham Square',
         ])
-    @elseif($page->getFilename() === 'essays')
+    @elseif($page->getFilename() === 'about')
         @include('_partials.seo', [
-            'title' => 'Essays | Markham Square',
-            'description' => 'Our latest thoughts on all things product.',
+            'title' => 'About | Markham Square',
+            'description' =>
+                'We are digital artisans obsessed with crafting digital experiences that generate exceptional results for our clients.',
+            'image' => $page->baseUrl . '/assets/images/seo-img.jpg',
+            'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
+            'site_name' => 'Markham Square',
+        ])
+    @elseif($page->getFilename() === 'blog')
+        @include('_partials.seo', [
+            'title' => 'Blog | Markham Square',
+            'description' =>
+                'Our latest thoughts on how we approach design, development, technology, work, & more.',
             'image' => $page->baseUrl . '/assets/images/seo-img.jpg',
             'image_alt' => 'The Markham Square logo on top of interlocking orange chevrons.',
             'site_name' => 'Markham Square',
@@ -52,20 +62,6 @@
 
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-    <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
-    <script defer src="{{ mix('js/thin.min.js', 'assets/build') }}"></script>
-    <script defer src="{{ mix('js/light.min.js', 'assets/build') }}"></script>
-    <script defer src="{{ mix('js/fontawesome.min.js', 'assets/build') }}"></script>
-
-    <script>
-        (function(w, r) {
-            w._rwq = r;
-            w[r] = w[r] || function() {
-                (w[r].q = w[r].q || []).push(arguments)
-            }
-        })(window, 'rewardful');
-    </script>
-    <script async src='https://r.wdfl.co/rw.js' data-rewardful='10b722'></script>
 </head>
 
 <body class="font-primary antialiased selection:bg-orange-400 selection:text-white">

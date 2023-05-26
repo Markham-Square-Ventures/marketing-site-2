@@ -14,7 +14,7 @@ return [
             },
             'author' => 'Markham Square',
             'sort' => '-date',
-            'path' => 'essays/{filename}',
+            'path' => 'blog/{filename}',
         ],
         'case_study' => [
             'path' => 'case-study/{filename}',
