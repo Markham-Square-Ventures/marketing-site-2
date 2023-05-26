@@ -9,7 +9,7 @@
                 'Markham Square is a digital agency specialized in designing & building digital experiences for startups & established organizations.',
         ])
 
-        <section class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
+        <section class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
             <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
                 @include('_partials.image-card-large', [
                     'src' => '/assets/images/case-studies/fanxp/base.jpg',
@@ -39,10 +39,10 @@
     <main>
         <section class="bg-white px-7 lg:px-0 pt-20 flex justify-center">
             <div class="w-full max-w-[1000px]">
-                <h1
-                    class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
+                <h2
+                    class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
                     Our expertise
-                </h1>
+                </h2>
                 <div class="grid grid-cols-2 gap-10 mt-8">
                     <ul class="col-span-2 md:col-span-1">
                         <li
@@ -155,12 +155,13 @@
                     embeddedPackageFeatureTwo: '- Design & more',
                 }
             }
-        }" x-cloak class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
+        }" x-cloak
+            class="bg-neutral-800 bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
             <div class="w-full max-w-[1200px] flex flex-col items-center">
-                <h1
-                    class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-white text-center font-medium">
+                <h2
+                    class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-white text-center font-medium">
                     Ready to get started?
-                </h1>
+                </h2>
                 <div class="mt-8 p-1.5 border-[0.5px] border-white flex justify-between gap-2">
                     <button x-on:click="currentPlan = 'design-code'"
                         x-bind:class="{

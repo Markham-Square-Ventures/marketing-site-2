@@ -1,5 +1,5 @@
-<nav class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center">
-    <div class="w-full max-w-[1000px] flex justify-between">
+<nav class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center">
+    <div class="w-full max-w-[1000px] flex flex-col gap-5 sm:gap-0 sm:flex-row sm:justify-between">
         <ul class="flex items-center gap-10">
             <li class="flex-shrink-0">
                 <a href="/">
@@ -15,7 +15,7 @@
                     class="{{ $page->isSelected('blog') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Blog</a>
             </li>
         </ul>
-        <ul class="flex items-center gap-8 md:gap-5">
+        <ul class="flex items-center gap-10 md:gap-5">
             <li class="md:hidden">
                 <a href="/about"
                     class="{{ $page->isSelected('about') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">About</a>

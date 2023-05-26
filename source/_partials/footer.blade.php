@@ -1,9 +1,9 @@
 <footer class="bg-white pt-20 flex flex-col items-center">
     <div class="w-full max-w-[1000px] pb-20 px-7 lg:px-0">
-        <h1
-            class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
+        <h2
+            class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
             We'd love to talk
-        </h1>
+        </h2>
         <p class="mt-8 font-light text-neutral-800 text-5 -tracking-[1px] leading-[32px]">
             Drop us a line and we'll be in touch
         </p>

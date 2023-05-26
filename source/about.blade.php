@@ -9,7 +9,7 @@
                 'We are digital artisans obsessed with crafting digital experiences that generate exceptional results for our clients.',
         ])
 
-        <section class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
+        <section class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
             <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
                 @include('_partials.image-card-small', [
                     'src' => '/assets/images/nick.jpg',
@@ -34,10 +34,10 @@
     <main>
         <section class="bg-white px-7 lg:px-0 py-20 flex justify-center">
             <div class="w-full max-w-[1000px]">
-                <h1
-                    class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
+                <h2
+                    class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
                     Our values
-                </h1>
+                </h2>
                 <div class="grid grid-cols-2 gap-10 mt-8">
                     <ul class="col-span-2">
                         <li
@@ -82,12 +82,12 @@
         </section>
 
 
-        <section class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
+        <section class="bg-neutral-800 bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
             <div class="w-full max-w-[1000px] flex flex-col">
-                <h1
-                    class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-white font-medium">
+                <h2
+                    class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-white font-medium">
                     Why us?
-                </h1>
+                </h2>
 
                 <div class="mt-8 grid grid-cols-4 xl:grid-cols-3 gap-10 w-full">
                     <div class="p-5 border-[0.5px] border-white col-span-4 md:col-span-2 xl:col-span-1">

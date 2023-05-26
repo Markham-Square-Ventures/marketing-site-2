@@ -17,7 +17,7 @@
             'title' => $page->title,
             'subtitle' => $page->subtitle,
         ])
-        <section class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
+        <section class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
             <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
                 @foreach ($page->images as $image)
                     @include('_partials.image-card-' . $image[0], [
@@ -52,12 +52,12 @@
             </div>
         </section>
         @if ($case_study->count() >= 2)
-            <section class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
+            <section class="bg-neutral-800 bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
                 <div class="w-full max-w-[1000px] flex flex-col">
-                    <h1
-                        class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-white font-medium">
+                    <h2
+                        class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-white font-medium">
                         More projects
-                    </h1>
+                    </h2>
 
                     <div class="mt-8 grid grid-cols-2 gap-10 w-full">
                         @foreach ($case_study as $post)

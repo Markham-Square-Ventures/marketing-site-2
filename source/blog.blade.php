@@ -19,7 +19,7 @@
 
     </header>
     @isset($firstPost)
-        <main class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
+        <main class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
             <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
                 @include('_partials.image-card-large', [
                     'src' => $firstPost->header_url,
