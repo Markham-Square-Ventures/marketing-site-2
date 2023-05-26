@@ -16,8 +16,8 @@ return [
             'sort' => '-date',
             'path' => 'essays/{filename}',
         ],
-        'pages' => [
-            'path' => '{filename}',
+        'case_study' => [
+            'path' => 'case-study/{filename}',
         ],
     ],
     'isSelected' => function ($page, $section) {
