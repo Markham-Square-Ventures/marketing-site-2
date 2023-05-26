@@ -1,5 +1,7 @@
 <?php
 
+use Illuminate\Support\Str;
+
 return [
     'production' => false,
     'baseUrl' => 'http://marketing-site-2.test',
@@ -17,6 +19,8 @@ return [
         'pages' => [
             'path' => '{filename}',
         ],
-
     ],
+    'isSelected' => function ($page, $section) {
+        return Str::contains($page->getPath(), $section);
+    },
 ];

@@ -8,24 +8,24 @@
             </li>
             <li class="hidden md:block">
                 <a href="/about"
-                    class="text-4 text-neutral-200 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">About</a>
+                    class="{{ $page->isSelected('about') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">About</a>
             </li>
             <li class="hidden md:block">
                 <a href="/blog"
-                    class="text-4 text-neutral-200 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Blog</a>
+                    class="{{ $page->isSelected('blog') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Blog</a>
             </li>
         </ul>
         <ul class="flex items-center gap-8 md:gap-5">
             <li class="md:hidden">
                 <a href="/about"
-                    class="text-4 text-neutral-200 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">About</a>
+                    class="{{ $page->isSelected('about') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">About</a>
             </li>
             <li class="md:hidden">
                 <a href="/blog"
-                    class="text-4 text-neutral-200 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Blog</a>
+                    class="{{ $page->isSelected('blog') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Blog</a>
             </li>
             <li class="md:hidden">
-                <a href="/about"
+                <a href=""
                     class="text-4 text-neutral-200 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Book
                     Call</a>
             </li>
