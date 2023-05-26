@@ -1,25 +1,61 @@
 @extends('_layouts.main')
 
+@php
+    //get two random posts, excluding the current one
+    if ($posts->count() > 2) {
+        $posts = $posts
+            ->reject(function ($post) use ($page) {
+                return $post === $page;
+            })
+            ->random(2);
+    }
+@endphp
+
 @section('body')
-    <div class="bg-gradient-to-b from-orange-100 to-white overflow-hidden relative pb-32">
-        <header class="pt-6 lg:pt-10 px-6 lg:px-14 z-10 relative">
-            @include('_partials.nav')
-            <div class="lg:max-w-5xl lg:mx-auto mt-24 lg:mt-32">
-                <h1 class="text-16 lg:text-24 font-primary font-black text-center relative leading-[100%] text-gray-900">
-                    {{ $page->title }}
-                    <span
-                        class="bg-orange-500 h-4 w-4 lg:h-5 lg:w-5 inline-block translate-y-[2.5rem] lg:translate-y-[4rem] -translate-x-2 lg:-translate-x-4 select-none">&nbsp;</span>
-                </h1>
-                <p class="font-secondary text-gray-700 text-6 lg:text-10 text-center mt-10 max-w-xl lg:max-w-4xl mx-auto">
-                    {{ $page->author }} • {{ date('F j, Y', $page->date) }}
-                </p>
+    <header>
+        @include('_partials.nav')
+        @include('_partials.hero', [
+            'title' => $page->title,
+            'subtitle' => $page->author . ' • ' . date('F j, Y', $page->date),
+        ])
+        <section class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
+            <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
+                @include('_partials.image-card-large', [
+                    'src' => $page->header_url,
+                    'alt' => $page->header_alt,
+                ])
             </div>
-        </header>
-    </div>
-    <article
-        class="prose prose-xl xl:prose-2xl prose-a:text-orange-400 prose-a-hover:text-orange-500 font-secondary prose-headings:font-primary mx-auto text-gray-700 pb-24 px-6 xl:px-0">
-        <img src="{{ $page->header_url }}" alt="{{ $page->header_alt }}" class="w-full aspect-video object-cover">
-        @yield('content')
-    </article>
+        </section>
+    </header>
+
+    <main>
+        <section class="bg-white px-7 lg:px-0 py-20 flex justify-center">
+            <article class="prose prose-xl lg:prose-2xl !leading-[42px] lg:!leading-[48px] font-primary text-neutral-950">
+                @yield('content')
+            </article>
+        </section>
+        @if ($posts->count() >= 2)
+            <section class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
+                <div class="w-full max-w-[1000px] flex flex-col">
+                    <h1
+                        class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-white font-medium">
+                        More posts
+                    </h1>
+
+                    <div class="mt-8 grid grid-cols-2 gap-10 w-full">
+                        @foreach ($posts as $post)
+                            @include('_partials.image-card-small', [
+                                'src' => $post->header_url,
+                                'alt' => $post->header_alt,
+                                'title' => $post->title,
+                                'subtitle' => $post->description,
+                                'href' => $post->getUrl(),
+                            ])
+                        @endforeach
+                    </div>
+                </div>
+            </section>
+        @endif
+    </main>
     @include('_partials.footer')
 @endsection
