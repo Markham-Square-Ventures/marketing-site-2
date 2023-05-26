@@ -25,17 +25,17 @@
                     class="{{ $page->isSelected('blog') ? 'text-white before:scale-x-100' : 'text-neutral-200' }} text-4 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Blog</a>
             </li>
             <li class="md:hidden">
-                <a href=""
+                <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
                     class="text-4 text-neutral-200 relative inline before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-white before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">Book
                     Call</a>
             </li>
             <li class="hidden md:block flex-shrink-0">
-                <a href=""
+                <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
                     class="text-4 text-white px-4 py-3.5 border-[0.5px] border-white hover:bg-white hover:border-white hover:text-neutral-950 transition-slow">Book
                     Call</a>
             </li>
             <li class="hidden md:block flex-shrink-0">
-                <a href=""
+                <a href="https://forms.reform.app/1e147r/digital-audit/z3qeml" target="_blank"
                     class="text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">Free
                     Digital
                     Audit</a>

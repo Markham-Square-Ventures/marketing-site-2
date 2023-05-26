@@ -8,11 +8,11 @@
             Drop us a line and we'll be in touch
         </p>
         <div class="flex gap-5 mt-8">
-            <a href=""
+            <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
                 class="text-4 text-white px-4 py-3.5 border-[0.5px] border-neutral-800 bg-neutral-800 hover:bg-neutral-700 hover:border-neutral-700 transition-slow">
                 Book Call
             </a>
-            <a href=""
+            <a href="mailto:hello@markhamsq.com" target="_blank"
                 class="text-4 text-neutral-800 px-4 py-3.5 border-[0.5px] border-neutral-800 hover:bg-neutral-800 hover:border-neutral-800 hover:text-white transition-slow">
                 Contact Us
             </a>
