@@ -134,16 +134,25 @@
                     partnerTitle: 'Embedded Product Team',
                     websitePrice: '$10K+',
                     webAppPrice: '$20K+',
+                    webPackageFeature: '- Design & development',
+                    embeddedPackageFeatureOne: '- A full-service product team, on tap',
+                    embeddedPackageFeatureTwo: '- Design, development, & more',
                 },
                 code: {
                     partnerTitle: 'Embedded Engineering Team',
                     websitePrice: '$7.5K+',
                     webAppPrice: '$15K+',
+                    webPackageFeature: '- Development',
+                    embeddedPackageFeatureOne: '- A full-service engineering team, on tap',
+                    embeddedPackageFeatureTwo: '- Development & more',
                 },
                 design: {
                     partnerTitle: 'Embedded Design Team',
                     websitePrice: '$7.5K+',
                     webAppPrice: '$15K+',
+                    webPackageFeature: '- Design',
+                    embeddedPackageFeatureOne: '- A full-service design team, on tap',
+                    embeddedPackageFeatureTwo: '- Design & more',
                 }
             }
         }" x-cloak class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
@@ -196,8 +205,8 @@
                             <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
                                 - Built with Framer
                             </li>
-                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
-                                - Design & development
+                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]"
+                                x-text="planDetails[currentPlan].webPackageFeature">
                             </li>
                             <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
                                 - Dedicated Slack channel
@@ -225,8 +234,8 @@
                             <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
                                 - Custom solution
                             </li>
-                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
-                                - Design & development
+                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]"
+                                x-text="planDetails[currentPlan].webPackageFeature">
                             </li>
                             <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
                                 - Dedicated Slack channel
@@ -252,11 +261,11 @@
                             Included in this package
                         </p>
                         <ul class="mt-4 flex flex-col gap-1">
-                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
-                                - A full-service product team, on tap
+                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]"
+                                x-text="planDetails[currentPlan].embeddedPackageFeatureOne">
                             </li>
-                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
-                                - Design, development, & more
+                            <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]"
+                                x-text="planDetails[currentPlan].embeddedPackageFeatureTwo">
                             </li>
                             <li class="font-light text-white text-4.5 -tracking-[1px] leading-[32px]">
                                 - Priority support in Slack
