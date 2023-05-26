@@ -2,13 +2,40 @@
 extends: _layouts.case-study
 title: Lynden Lane
 subtitle: A new home for transformational events & interiors.
-header_url: /assets/images/lynden-lane.jpg
+header_url: /assets/images/case-studies/lynden-lane/base.jpg
 header_alt: A screenshot of the Lynden Lane website, it's trés chic.
 images:
   [
-    ["large", "/assets/images/lynden-lane.jpg", "alt text", null],
-    ["small", "/assets/images/lynden-lane.jpg", "alt text", null],
-    ["small", "/assets/images/lynden-lane.jpg", "alt text", null],
+    [
+      "large",
+      "/assets/images/case-studies/lynden-lane/landing.jpg",
+      "A screenshot of the Lynden Lane landing page.",
+      null,
+    ],
+    [
+      "small",
+      "/assets/images/case-studies/lynden-lane/contact-before.png",
+      "A screenshot of how Lynden Lane's contact form looked before we redesigned it.",
+      "Before",
+    ],
+    [
+      "small",
+      "/assets/images/case-studies/lynden-lane/contact-after.png",
+      "A screenshot of how Lynden Lane's contact form looked after we redesigned it.",
+      "After",
+    ],
+    [
+      "small",
+      "/assets/images/case-studies/lynden-lane/event-1.jpg",
+      "A screenshot of a Lynden Lane event gallery.",
+      null,
+    ],
+    [
+      "small",
+      "/assets/images/case-studies/lynden-lane/interiors.png",
+      "A screenshot of the Lynden Lane interiors page.",
+      null,
+    ],
   ]
 services: ["Web design", "Website development", "Custom CMS"]
 project_link_text: lyndenlane.com

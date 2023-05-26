@@ -44,7 +44,7 @@
                     @endforeach
                 </ul>
                 <article
-                    class="space-y-4 col-span-3 lg:col-span-2 text-7 leading-[44px] -tracking-[1px] font-light font-primary text-neutral-950">
+                    class="space-y-4 col-span-3 lg:col-span-2 text-6 leading-[44px] -tracking-[1px] font-light font-primary text-neutral-950">
                     @yield('content')
                     <a href="{{ $page->project_link_href }}" target="_blank"
                         class="inline-block text-neutral-500 relative before:content-[''] before:absolute before:block before:w-full before:h-[0.5px] before:bottom-0 before:left-0 before:bg-neutral-500 before:origin-top-left before:scale-x-0 hover:before:scale-x-100 before:transition-slow">{{ $page->project_link_text }}</a>

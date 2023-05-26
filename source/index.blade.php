@@ -12,21 +12,21 @@
         <section class="bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
             <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
                 @include('_partials.image-card-large', [
-                    'src' => '/assets/images/fanxp.jpg',
+                    'src' => '/assets/images/case-studies/fanxp/base.jpg',
                     'alt' => 'A screenshot of the FanXP dashboard, it\'s quite good.',
                     'title' => 'FanXP',
                     'subtitle' => 'Building a platform where fandom is rewarded',
                     'href' => '/case-study/fanxp',
                 ])
                 @include('_partials.image-card-small', [
-                    'src' => '/assets/images/lynden-lane.jpg',
+                    'src' => '/assets/images/case-studies/lynden-lane/base.jpg',
                     'alt' => 'A screenshot of the Lynden Lane website, it\'s trés chic.',
                     'title' => 'Lynden Lane',
                     'subtitle' => 'A new home for transformational events & interiors',
                     'href' => '/case-study/lynden-lane',
                 ])
                 @include('_partials.image-card-small', [
-                    'src' => '/assets/images/soldev.jpg',
+                    'src' => '/assets/images/case-studies/soldev/base.jpg',
                     'alt' => 'A screenshot of the SolDev website, mamma mia.',
                     'title' => 'SolDev',
                     'subtitle' => 'Bringing structure & style to the best Solana content',
