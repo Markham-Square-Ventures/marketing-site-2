@@ -127,30 +127,65 @@
             </div>
         </section>
 
-        <section class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
+        <section x-data="{
+            currentPlan: 'design-code',
+            planDetails: {
+                'design-code': {
+                    partnerTitle: 'Embedded Product Team',
+                    websitePrice: '$10K+',
+                    webAppPrice: '$20K+',
+                },
+                code: {
+                    partnerTitle: 'Embedded Engineering Team',
+                    websitePrice: '$7.5K+',
+                    webAppPrice: '$15K+',
+                },
+                design: {
+                    partnerTitle: 'Embedded Design Team',
+                    websitePrice: '$7.5K+',
+                    webAppPrice: '$15K+',
+                }
+            }
+        }" x-cloak class="bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
             <div class="w-full max-w-[1200px] flex flex-col items-center">
                 <h1
                     class="text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[52px] md:leading-[72px] text-white text-center font-medium">
                     Ready to get started?
                 </h1>
                 <div class="mt-8 p-1.5 border-[0.5px] border-white flex justify-between gap-2">
-                    <button
-                        class="text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white transition-slow">
+                    <button x-on:click="currentPlan = 'design-code'"
+                        x-bind:class="{
+                            'text-neutral-950 border-white bg-white': currentPlan === 'design-code',
+                            'text-white border-transparent hover:bg-white hover:text-neutral-800 hover:border-white': currentPlan !=
+                                'design-code'
+                        }"
+                        class="text-4 px-4 py-3.5 border-[0.5px] transition-slow">
                         Design & Code
                     </button>
-                    <button
-                        class="text-4 text-white px-4 py-3.5 border-[0.5px] border-transparent hover:bg-white hover:text-neutral-800 hover:border-white transition-slow">
+                    <button x-on:click="currentPlan = 'code'"
+                        x-bind:class="{
+                            'text-neutral-950 border-white bg-white': currentPlan === 'code',
+                            'text-white border-transparent hover:bg-white hover:text-neutral-800 hover:border-white': currentPlan !=
+                                'code'
+                        }"
+                        class="text-4 px-4 py-3.5 border-[0.5px] transition-slow">
                         Just Code
                     </button>
-                    <button
-                        class="text-4 text-white px-4 py-3.5 border-[0.5px] border-transparent hover:bg-white hover:text-neutral-800 hover:border-white transition-slow">
+                    <button x-on:click="currentPlan = 'design'"
+                        x-bind:class="{
+                            'text-neutral-950 border-white bg-white': currentPlan === 'design',
+                            'text-white border-transparent hover:bg-white hover:text-neutral-800 hover:border-white': currentPlan !=
+                                'design'
+                        }"
+                        class="text-4 px-4 py-3.5 border-[0.5px] transition-slow">
                         Just Design
                     </button>
                 </div>
                 <div class="mt-8 grid grid-cols-4 xl:grid-cols-3 gap-10 w-full">
                     <div class="p-5 border-[0.5px] border-white col-span-4 md:col-span-2 xl:col-span-1">
                         <h2 class="font-light text-white text-5 -tracking-[1px] leading-[32px]">Website</h2>
-                        <h3 class="mt-2 font-light text-white text-14 -tracking-[1px]">$10K+</h3>
+                        <h3 class="mt-2 font-light text-white text-14 -tracking-[1px]"
+                            x-text="planDetails[currentPlan].websitePrice"></h3>
                         <p class="mt-4 font-light text-white text-5 -tracking-[1px] leading-[32px]">Full-scale website & CMS
                             optimized for speed & SEO that'll supercharge your growth engine.</p>
                         <p
@@ -178,7 +213,8 @@
                     </div>
                     <div class="p-5 border-[0.5px] border-white col-span-4 md:col-span-2 xl:col-span-1">
                         <h2 class="font-light text-white text-5 -tracking-[1px] leading-[32px]">Web App</h2>
-                        <h3 class="mt-2 font-light text-white text-14 -tracking-[1px]">$20K+</h3>
+                        <h3 class="mt-2 font-light text-white text-14 -tracking-[1px]"
+                            x-text="planDetails[currentPlan].webAppPrice"></h3>
                         <p class="mt-4 font-light text-white text-5 -tracking-[1px] leading-[32px]">Complex, interactive
                             experiences that require logic, accounts, payments, data processing, e-commerce, etc.</p>
                         <p
@@ -205,7 +241,8 @@
                         </a>
                     </div>
                     <div class="p-5 border-[0.5px] border-white col-span-4 md:col-span-2 xl:col-span-1">
-                        <h2 class="font-light text-white text-5 -tracking-[1px] leading-[32px]">Embedded Product Team
+                        <h2 class="font-light text-white text-5 -tracking-[1px] leading-[32px]"
+                            x-text="planDetails[currentPlan].partnerTitle">
                         </h2>
                         <h3 class="mt-2 font-light text-white text-14 -tracking-[1px]">Let's talk</h3>
                         <p class="mt-4 font-light text-white text-5 -tracking-[1px] leading-[32px]">For teams who need a
@@ -267,4 +304,5 @@
             </div>
         </section>
     </main>
+    @include('_partials.footer')
 @endsection

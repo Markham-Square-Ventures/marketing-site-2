@@ -37,3 +37,9 @@ stripeButtons.forEach((button) => {
     redirectToStripe(plan);
   });
 });
+
+import Alpine from "alpinejs";
+
+window.Alpine = Alpine;
+
+Alpine.start();
