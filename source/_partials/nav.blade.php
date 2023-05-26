@@ -3,7 +3,7 @@
         <ul class="flex items-center gap-10">
             <li class="flex-shrink-0">
                 <a href="/">
-                    <img src="/assets/images/mksq-logo.svg" alt="Logo" class="h-11 w-auto ">
+                    <img src="/assets/images/mksq-logo.svg" alt="Logo" class="h-12 w-auto ">
                 </a>
             </li>
             <li class="hidden md:block">
