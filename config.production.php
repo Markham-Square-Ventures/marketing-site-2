@@ -6,7 +6,7 @@ return [
     'production' => true,
     'baseUrl' => 'https://markhamsq.com',
     'title' => 'Markham Square',
-    'description' => 'Supercharge your digital product development with a flexible, full-service product team.',
+    'description' => 'We help teams succeed on the web.',
     'collections' => [
         'posts' => [
             'filter' => function ($item) {

@@ -6,7 +6,7 @@ return [
     'production' => false,
     'baseUrl' => 'http://marketing-site-2.test',
     'title' => 'Markham Square',
-    'description' => 'Supercharge your digital product development with a flexible, full-service product team.',
+    'description' => 'We help teams succeed on the web.',
     'collections' => [
         'posts' => [
             'filter' => function ($item) {
