@@ -63,7 +63,7 @@
     <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     <script defer src="{{ mix('js/main.js', 'assets/build') }}"></script>
 
-    @if ($page->environment == 'production')
+    @if ($page->production)
         <!-- Fathom - beautiful, simple website analytics -->
         <script src="https://cdn.usefathom.com/script.js" data-site="ZOIXFFJA" defer></script>
         <!-- / Fathom -->
