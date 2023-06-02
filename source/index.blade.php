@@ -217,7 +217,7 @@
                             </li>
                         </ul>
                         <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
-                            class="mt-8 inline-block w-full text-center text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">
+                            class="js-book-call mt-8 inline-block w-full text-center text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">
                             Book Call
                         </a>
                     </div>
@@ -246,7 +246,7 @@
                             </li>
                         </ul>
                         <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
-                            class="mt-8 inline-block w-full text-center text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">
+                            class="js-book-call mt-8 inline-block w-full text-center text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">
                             Book Call
                         </a>
                     </div>
@@ -276,7 +276,7 @@
                             </li>
                         </ul>
                         <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
-                            class="mt-8 inline-block w-full text-center text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">
+                            class="js-book-call mt-8 inline-block w-full text-center text-4 text-neutral-950 px-4 py-3.5 border-[0.5px] border-white bg-white hover:bg-neutral-200 hover:border-neutral-200 transition-slow">
                             Book Call
                         </a>
                     </div>
@@ -306,7 +306,7 @@
                             </li>
                         </ul>
                         <a href="https://forms.reform.app/1e147r/digital-audit/z3qeml" target="_blank"
-                            class="mt-8 inline-block w-full text-center text-4 text-white px-4 py-3.5 border-[0.5px] border-neutral-800 bg-neutral-800 hover:bg-neutral-700 hover:border-neutral-700 transition-slow">
+                            class="js-book-audit mt-8 inline-block w-full text-center text-4 text-white px-4 py-3.5 border-[0.5px] border-neutral-800 bg-neutral-800 hover:bg-neutral-700 hover:border-neutral-700 transition-slow">
                             Book Call
                         </a>
                     </div>

@@ -72,6 +72,20 @@
 
 <body class="font-primary antialiased selection:bg-orange-400 selection:text-white">
     @yield('body')
+
+    <script>
+        document.querySelectorAll(".js-book-call").forEach((item) => {
+            item.addEventListener("click", (event) => {
+                fathom.trackGoal("TTUEAIZW", 0);
+            });
+        });
+
+        document.querySelectorAll(".js-book-audit").forEach((item) => {
+            item.addEventListener("click", (event) => {
+                fathom.trackGoal("OPDDA4SG", 0);
+            });
+        });
+    </script>
 </body>
 
 </html>

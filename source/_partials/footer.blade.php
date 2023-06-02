@@ -9,7 +9,7 @@
         </p>
         <div class="flex gap-5 mt-8">
             <a href="https://calendly.com/nick-1330/markham-square-inquiry" target="_blank"
-                class="text-4 text-white px-4 py-3.5 border-[0.5px] border-neutral-800 bg-neutral-800 hover:bg-neutral-700 hover:border-neutral-700 transition-slow">
+                class="js-book-call text-4 text-white px-4 py-3.5 border-[0.5px] border-neutral-800 bg-neutral-800 hover:bg-neutral-700 hover:border-neutral-700 transition-slow">
                 Book Call
             </a>
             <a href="mailto:hello@markhamsq.com" target="_blank"
