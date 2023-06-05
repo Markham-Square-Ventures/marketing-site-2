@@ -70,7 +70,7 @@
     @endif
 </head>
 
-<body class="font-primary antialiased selection:bg-orange-400 selection:text-white">
+<body class="font-primary antialiased selection:bg-orange-400 selection:text-white relative pb-4">
     @yield('body')
 
     <script>

@@ -315,4 +315,5 @@
         </section>
     </main>
     @include('_partials.footer')
+    @include('_partials.banner')
 @endsection
