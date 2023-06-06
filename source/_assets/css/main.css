@@ -30,6 +30,7 @@
       url('/assets/fonts/gilmer-light.svg#youworkforthem') format('svg');
       font-weight: 300;
       font-style: normal;
+      font-display: swap;
     }
   
     /*
@@ -57,6 +58,7 @@
       url('/assets/fonts/gilmer-regular.svg#youworkforthem') format('svg');
       font-weight: 400;
       font-style: normal;
+      font-display: swap;
     }
   
     /*
@@ -84,6 +86,7 @@
       url('/assets/fonts/gilmer-medium.svg#youworkforthem') format('svg');
       font-weight: 500;
       font-style: normal;
+      font-display: swap;
     }
   
     /*
@@ -112,6 +115,7 @@
       url('/assets/fonts/gilmer-bold.svg#youworkforthem') format('svg');
       font-weight: 700;
       font-style: normal;
+      font-display: swap;
     }
   
     /*
@@ -140,5 +144,6 @@
       url('/assets/fonts/gilmer-heavy.svg#youworkforthem') format('svg');
       font-weight: 900;
       font-style: normal;
+      font-display: swap;
     }
 }

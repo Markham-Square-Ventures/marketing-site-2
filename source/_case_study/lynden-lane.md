@@ -2,37 +2,37 @@
 extends: _layouts.case-study
 title: Lynden Lane
 subtitle: A new home for transformational events & interiors.
-header_url: /assets/images/case-studies/lynden-lane/base.jpg
+header_url: /assets/images/case-studies/lynden-lane/base.avif
 header_alt: A screenshot of the Lynden Lane website, it's trés chic.
 images:
   [
     [
       "large",
-      "/assets/images/case-studies/lynden-lane/landing.jpg",
+      "/assets/images/case-studies/lynden-lane/landing.avif",
       "A screenshot of the Lynden Lane landing page.",
       null,
     ],
     [
       "small",
-      "/assets/images/case-studies/lynden-lane/contact-before.png",
+      "/assets/images/case-studies/lynden-lane/contact-before.avif",
       "A screenshot of how Lynden Lane's contact form looked before we redesigned it.",
       "Before",
     ],
     [
       "small",
-      "/assets/images/case-studies/lynden-lane/contact-after.png",
+      "/assets/images/case-studies/lynden-lane/contact-after.avif",
       "A screenshot of how Lynden Lane's contact form looked after we redesigned it.",
       "After",
     ],
     [
       "small",
-      "/assets/images/case-studies/lynden-lane/event-1.jpg",
+      "/assets/images/case-studies/lynden-lane/event-1.avif",
       "A screenshot of a Lynden Lane event gallery.",
       null,
     ],
     [
       "small",
-      "/assets/images/case-studies/lynden-lane/interiors.png",
+      "/assets/images/case-studies/lynden-lane/interiors.avif",
       "A screenshot of the Lynden Lane interiors page.",
       null,
     ],

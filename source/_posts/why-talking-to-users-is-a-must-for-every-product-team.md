@@ -4,7 +4,7 @@ title: Why talking to users is a must for every product team
 description: Boost your product efforts by talking to users.
 author: Nick Basile
 date: 2023-01-11
-header_url: /assets/images/posts/why-talking-to-users-is-a-must-for-every-product-team/hero.jpg
+header_url: /assets/images/posts/why-talking-to-users-is-a-must-for-every-product-team/hero.avif
 header_alt: A bunch of people talking to one another
 published: false
 seo_description: Boost your product efforts by talking to users.

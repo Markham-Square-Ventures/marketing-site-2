@@ -2,31 +2,31 @@
 extends: _layouts.case-study
 title: SolDev
 subtitle: Bringing structure & style to the best Solana content.
-header_url: /assets/images/case-studies/soldev/base.jpg
+header_url: /assets/images/case-studies/soldev/base.avif
 header_alt: A screenshot of the SolDev website, mamma mia.
 images:
   [
     [
       "large",
-      "/assets/images/case-studies/soldev/website.jpg",
+      "/assets/images/case-studies/soldev/website.avif",
       "A screenshot of the SolDev landing page.",
       null,
     ],
     [
       "small",
-      "/assets/images/case-studies/soldev/before-library.jpg",
+      "/assets/images/case-studies/soldev/before-library.avif",
       "A screenshot of how SolDev's library looked before we redesigned it.",
       "Before",
     ],
     [
       "small",
-      "/assets/images/case-studies/soldev/after-library.jpg",
+      "/assets/images/case-studies/soldev/after-library.avif",
       "A screenshot of how SolDev's library looked after we redesigned it.",
       "After",
     ],
     [
       "large",
-      "/assets/images/case-studies/soldev/nav.jpg",
+      "/assets/images/case-studies/soldev/nav.avif",
       "A screenshot of SolDev's new nav dropdown.",
       null,
     ],
