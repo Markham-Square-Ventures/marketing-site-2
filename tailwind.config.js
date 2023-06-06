@@ -69,10 +69,7 @@ module.exports = {
         'hero-gradient': 'linear-gradient(180deg, #FFEDE5 0%, #FFFFFF 77.05%)',
         'services-gradient':
           'linear-gradient(90deg, #FFEDE5 0%, #FFEDE5 62.5%, #FFFCFA 62.51%, #FFFCFA 100%)',
-        'noise-orange': "url('/assets/images/bg-noise-orange.svg')",
-        'noise-green': "url('/assets/images/bg-noise-green.svg')",
-        'noise-purple': "url('/assets/images/bg-noise-purple.svg')",
-        tile: "url('/assets/images/bg-tile.avif')",
+        tile: "url('/assets/images/bg-tile.svg')",
       },
       boxShadow: {
         'outline-orange': '-8px 8px 0 0 #FFC2A6',

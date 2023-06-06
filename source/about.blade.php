@@ -12,7 +12,7 @@
         <section class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">
             <div class="w-full max-w-[1000px] grid grid-cols-2 gap-10">
                 @include('_partials.image-card-small', [
-                    'src' => '/assets/images/nick.avif',
+                    'src' => '/assets/images/nick.webp',
                     'alt' => 'A photo of Nick Basile.',
                     'title' => 'Nick Basile',
                     'subtitle' => 'Founder',
@@ -20,7 +20,7 @@
                     'target' => '_blank',
                 ])
                 @include('_partials.image-card-small', [
-                    'src' => '/assets/images/matt.avif',
+                    'src' => '/assets/images/matt.webp',
                     'alt' => 'A photo of Matt Basile.',
                     'title' => 'Matt Basile',
                     'subtitle' => 'Founder',

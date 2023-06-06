@@ -8,7 +8,7 @@ images:
   [
     [
       "large",
-      "/assets/images/case-studies/fanxp/base.avif",
+      "/assets/images/case-studies/fanxp/base.webp",
       "A screenshot of the FanXP dashboard, it's quite good.",
       null,
     ],
