@@ -19,14 +19,14 @@
                     'href' => '/case-study/fanxp',
                 ])
                 @include('_partials.image-card-small', [
-                    'src' => '/assets/images/case-studies/lynden-lane/base.avif',
+                    'src' => '/assets/images/case-studies/lynden-lane/base.webp',
                     'alt' => 'A screenshot of the Lynden Lane website, it\'s trés chic.',
                     'title' => 'Lynden Lane',
                     'subtitle' => 'A new home for transformational events & interiors',
                     'href' => '/case-study/lynden-lane',
                 ])
                 @include('_partials.image-card-small', [
-                    'src' => '/assets/images/case-studies/soldev/base.avif',
+                    'src' => '/assets/images/case-studies/soldev/base.webp',
                     'alt' => 'A screenshot of the SolDev website, mamma mia.',
                     'title' => 'SolDev',
                     'subtitle' => 'Bringing structure & style to the best Solana content',
@@ -118,7 +118,7 @@
                     They took our ideas, built-upon them, and translated them into a rad digital experience. They are a one
                     stop shop for impeccable design, logic, and execution."</h2>
                     <div class="flex items-center gap-5 mt-6">
-                        <img src="/assets/images/jenna.avif" alt="A photo of Jenna Constantino" class="w-16 h-16">
+                        <img src="/assets/images/jenna.webp" alt="A photo of Jenna Constantino" class="w-16 h-16">
                         <div>
                             <h4 class="text-white leading-[100%] -tracking-[1px] text-5">Jenna Constantino</h4>
                             <h5 class="mt-1 font-light text-white leading-[100%] -tracking-[1px] text-4.5">Lynden Lane</h5>

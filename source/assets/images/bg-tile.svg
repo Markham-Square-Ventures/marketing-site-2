@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" viewBox="0 0 200 200">
-  <path fill="#262626" d="M0 0h200v200H0z"/>
-  <path fill="url(#a)" fill-opacity=".02" d="M0 0h200v200H0z"/>
-  <defs>
-    <pattern id="a" width="10.24" height="10.24" patternContentUnits="objectBoundingBox">
-      <use xlink:href="#b" transform="scale(.005)"/>
-    </pattern>
-  </defs>
-</svg>

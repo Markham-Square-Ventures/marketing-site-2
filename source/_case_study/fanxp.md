@@ -2,7 +2,7 @@
 extends: _layouts.case-study
 title: FanXP
 subtitle: Building a platform from scratch where fandom is rewarded.
-header_url: /assets/images/case-studies/fanxp/website.avif
+header_url: /assets/images/case-studies/fanxp/website.webp
 header_alt: A screenshot of the FanXP dashboard, it's quite good.
 images:
   [
@@ -14,19 +14,19 @@ images:
     ],
     [
       "small",
-      "/assets/images/case-studies/fanxp/logo.avif",
+      "/assets/images/case-studies/fanxp/logo.webp",
       "The FanXP logo",
       null,
     ],
     [
       "small",
-      "/assets/images/case-studies/fanxp/website.avif",
+      "/assets/images/case-studies/fanxp/website.webp",
       "The awesome new FanXP website",
       null,
     ],
     [
       "large",
-      "/assets/images/case-studies/fanxp/profile.avif",
+      "/assets/images/case-studies/fanxp/profile.webp",
       "A screenshot of a FanXP profile.",
       null,
     ],
