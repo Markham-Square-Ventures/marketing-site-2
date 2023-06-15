@@ -2,10 +2,10 @@
 
 @php
     //get two random posts, excluding the current one
-    if ($posts->count() > 2) {
+    if ($posts->count() > 3) {
         $posts = $posts
             ->reject(function ($post) use ($page) {
-                return $post === $page;
+                return $post->title === $page->title;
             })
             ->random(2);
     }
@@ -34,7 +34,7 @@
                 @yield('content')
             </article>
         </section>
-        @if ($posts->count() >= 2)
+        @if ($posts->count() >= 3)
             <section class="bg-neutral-800 bg-tile bg-repeat px-7 xl:px-0 py-20 flex justify-center">
                 <div class="w-full max-w-[1000px] flex flex-col">
                     <h2

@@ -1,14 +1,14 @@
 ---
 extends: _layouts.post
 title: Why talking to users is a must for every product team
-description: Boost your product efforts by talking to users.
+description: It's like leg day – you can't skip it.
 author: Nick Basile
 author_url: https://www.linkedin.com/in/nickbasile/
-date: 2023-01-11
+date: 2023-06-14
 header_url: /assets/images/posts/why-talking-to-users-is-a-must-for-every-product-team/hero.webp
 header_alt: A bunch of people talking to one another
 published: true
-seo_description: Boost your product efforts by talking to users.
+seo_description: We can’t possibly build products that are useful, let alone delightful, if we don’t frequently talk to the people who’ll use it.
 ---
 
 Would you let someone design your house without talking to them first? Of course not! How could they possibly know what you need from your living spaces and what aesthetics you enjoy without at least one conversation.
@@ -36,6 +36,10 @@ But, what does bother me is that if we had just talked with some people who had 
 - found a better path
 
 Ultimately, life’s too short to build products people don’t want, and the **only** way to find out what people want is to talk to them. Which is why talking to users is a must for every product team, and something we strive to do with every day at Markham Square.
+
+Until next time, go talk to some users!
+
+Nick
 
 [^1]: According to [Carta](https://carta.com/blog/state-of-private-markets-q2-2022/), the median seed round size was $3.4M in Q3 2022.
 [^2]: According to the [National Association of Relators](https://www.nar.realtor/research-and-statistics/housing-statistics/metropolitan-median-area-prices-and-affordability), the median single-family existing home price was $398,500 in Q3 2022.
