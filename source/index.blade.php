@@ -6,7 +6,7 @@
         @include('_partials.hero', [
             'title' => 'We help teams succeed on the web',
             'subtitle' =>
-                'Markham Square is a digital agency specialized in designing & building digital experiences for startups & established organizations.',
+                'Markham Square is a digital agency specialized in helping organizations leverage technology to earn more, spend less, and save time.',
         ])
 
         <section class="bg-neutral-800 bg-tile bg-repeat px-7 lg:px-0 pt-10 pb-20 flex justify-center ">

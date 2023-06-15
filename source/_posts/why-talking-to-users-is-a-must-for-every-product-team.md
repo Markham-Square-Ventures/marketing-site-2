@@ -3,10 +3,11 @@ extends: _layouts.post
 title: Why talking to users is a must for every product team
 description: Boost your product efforts by talking to users.
 author: Nick Basile
+author_url: https://www.linkedin.com/in/nickbasile/
 date: 2023-01-11
 header_url: /assets/images/posts/why-talking-to-users-is-a-must-for-every-product-team/hero.webp
 header_alt: A bunch of people talking to one another
-published: false
+published: true
 seo_description: Boost your product efforts by talking to users.
 ---
 
@@ -18,7 +19,7 @@ I can already hear a million PMs crying out, “we just need to ship, we’ll ge
 
 Could you imagine randomly building houses until you landed on something that worked? In this economy?! Of course we don’t do this – just the thought of the wasted resources, money, and time is giving me hives.
 
-“BuT hOuSeS aRe NoT tHe SaMe As SoFtWaRe.” You’re right, software takes way more time and money to build than a house – it’s no wonder the median seed round size in Q3 2022 was $3.3M¹ while the median home price was $398,500².
+“BuT hOuSeS aRe NoT tHe SaMe As SoFtWaRe.” You’re right, software takes way more time and money to build than a house – it’s no wonder the median seed round size in Q3 2022 was $3.3M[^1] while the median home price was $398,500[^2].
 
 “But but, we’re busy! There’s no time to talk! We’ve got OKRs and deadlines and other manufactured demands on our time that prevent us from doing work that’ll matter.“
 
@@ -36,5 +37,5 @@ But, what does bother me is that if we had just talked with some people who had 
 
 Ultimately, life’s too short to build products people don’t want, and the **only** way to find out what people want is to talk to them. Which is why talking to users is a must for every product team, and something we strive to do with every day at Markham Square.
 
-1. According to [Carta](https://carta.com/blog/state-of-private-markets-q2-2022/), the median seed round size was $3.4M in Q3 2022.
-2. According to the [National Association of Relators](https://www.nar.realtor/research-and-statistics/housing-statistics/metropolitan-median-area-prices-and-affordability), the median single-family existing home price was $398,500 in Q3 2022.
+[^1]: According to [Carta](https://carta.com/blog/state-of-private-markets-q2-2022/), the median seed round size was $3.4M in Q3 2022.
+[^2]: According to the [National Association of Relators](https://www.nar.realtor/research-and-statistics/housing-statistics/metropolitan-median-area-prices-and-affordability), the median single-family existing home price was $398,500 in Q3 2022.

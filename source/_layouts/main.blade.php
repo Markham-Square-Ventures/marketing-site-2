@@ -40,7 +40,18 @@
             'image_alt' => $page->header_alt ?? 'The Markham Square logo on top of interlocking orange chevrons.',
             'site_name' => 'Markham Square',
         ])
+
+        @include('_partials.structured-data.article', [
+            'headline' => $page->title ?? 'Markham Square',
+            'image' => $page->baseUrl . $page->header_url ?? $page->baseUrl . '/assets/images/seo-img.jpg',
+            'author' => $page->author ?? 'Markham Square',
+            'author_url' => $page->author_url ?? $page->baseUrl,
+            'published_at' => $page->date ? \Carbon\Carbon::parse($page->date)->toIso8601String() : null,
+            'updated_at' => $page->date ? \Carbon\Carbon::parse($page->date)->toIso8601String() : null,
+        ])
     @endif
+
+    @include('_partials.structured-data.organization')
 
     <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-icon-60x60.png">
