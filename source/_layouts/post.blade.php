@@ -6,7 +6,7 @@
         ->reject(function ($post) use ($page) {
             return $post['_meta']['filename'] === $page->getFilename();
         })
-        ->random(2); // todo: change to 2 once there are 3 posts
+        ->random(1); // todo: change to 2 once there are 3 posts
 @endphp
 
 @section('body')
