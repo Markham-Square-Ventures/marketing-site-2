@@ -1,7 +1,7 @@
 @isset($href)
     <a href="{{ $href }}" target="{{ $target ?? '_self' }}" class="col-span-2 md:col-span-1 group">
         <img src="{{ $src }}" alt="{{ $alt }}"
-            class="w-full h-80 group-hover:scale-[1.025] transition-slow object-cover object-top">
+            class="w-full aspect-square group-hover:scale-[1.025] transition-slow object-cover object-top">
         @if (isset($title) || isset($subtitle))
             <div class="mt-5">
                 @isset($title)
