@@ -43,70 +43,68 @@
                     class="text-8 sm:text-12 md:text-18 -tracking-[2px] md:-tracking-[4px] leading-[40px] sm:leading-[52px] md:leading-[72px] text-neutral-800 max-w-[480px] md:max-w-[690px] font-medium">
                     Our expertise
                 </h2>
-                <div class="grid grid-cols-2 gap-10 mt-8">
+                <p class="mt-8 font-light text-5 -tracking-[1px] leading-[32px] text-neutral-800 max-w-[640px]">
+                    For us, it's not just about designing & building digital experiences, it's about helping you find
+                    sustainable, scalable success on the web.
+                </p>
+                <div class="grid grid-cols-2 gap-10 mt-10">
                     <ul class="col-span-2 md:col-span-1">
                         <li
-                            class="text-neutral-500 font-light -tracking-[1px] leading-[32px] text-5 pb-4 border-b-[0.5px] border-neutral-300">
-                            Services</li>
+                            class="text-neutral-800 font-regular -tracking-[1px] leading-[32px] text-6 pb-4 border-b-[0.5px] border-neutral-300">
+                            Your challenges</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Landing Pages</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) A website that doesn't convert</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Marketing Websites</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Confused, frustrated customers</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Web Apps</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Stale & outdated designs</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Mobile Apps</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Treading water without a product</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Digital Products</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Users who don't stick around</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Design Systems</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Busy work eating your time</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Figma to Code</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Good talent is hard to find & harder to keep</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            API Integration & Development</li>
-                        <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Digital & AI Automation</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.xmark', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Budgets that keep ballooning</li>
                     </ul>
                     <ul class="col-span-2 md:col-span-1">
                         <li
-                            class="text-neutral-500 font-light -tracking-[1px] leading-[32px] text-5 pb-4 border-b-[0.5px] border-neutral-300">
-                            Industries</li>
+                            class="text-neutral-800 font-regular -tracking-[1px] leading-[32px] text-6 pb-4 border-b-[0.5px] border-neutral-300">
+                            How we can help</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Climate</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) A website that sells 24/7/365</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            E-commerce</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Experiences that inform & delight</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Fintech</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Designs that'll knock your socks off</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Education</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Ship an MVP in 30 days or less</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Blockchain</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Sticky experiences that people crave</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Brick & Mortar Businesses</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Advanced systems that run on autopilot</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Entertainment</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Partners invested in the long-haul</li>
                         <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            B2B</li>
-                        <li
-                            class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            SaaS</li>
+                            class="text-neutral-800 flex items-center font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
+                            @include('_partials.check', ['class' => 'w-8 h-8 mr-3 text-neutral-500']) Clear & transparent pricing</li>
                     </ul>
                 </div>
             </div>
@@ -222,7 +220,7 @@
                         </a>
                     </div>
                     <div class="p-5 border-[0.5px] border-white col-span-4 md:col-span-2 xl:col-span-1">
-                        <h2 class="font-light text-white text-5 -tracking-[1px] leading-[32px]">Web App</h2>
+                        <h2 class="font-light text-white text-5 -tracking-[1px] leading-[32px]">Digital Product</h2>
                         <h3 class="mt-2 font-light text-white text-14 -tracking-[1px]"
                             x-text="planDetails[currentPlan].webAppPrice"></h3>
                         <p class="mt-4 font-light text-white text-5 -tracking-[1px] leading-[32px]">Complex, interactive
