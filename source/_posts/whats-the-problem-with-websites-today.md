@@ -35,7 +35,7 @@ Given these metrics, what would your business look like if you 5x those numbers?
 
 At this point, you're probably thinking, "that sounds amazing, I'm in. But, how do I _actually_ go about optimizing my website?"
 
-Of course, you can get together your team together and figure it out. Or, if you're looking for a shortcut, you can [get in touch](https://calendly.com/nick-1330/markham-square-inquiry) with your friends at Markham Square and we'd love to help you out.
+Of course, you can get your team together and figure it out. Or, if you're looking for a shortcut, you can [get in touch](https://calendly.com/nick-1330/markham-square-inquiry) with your friends at Markham Square and we'd love to help you out.
 
 Whichever route you choose, just remember to keep your eye on the prize. Make sure your website is laser focused on informing new people about your offerings, selling them your offerings, and empowering repeat customers and you'll have a website that can actually drive results for your business.
 
