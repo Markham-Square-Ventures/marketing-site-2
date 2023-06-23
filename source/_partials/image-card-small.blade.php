@@ -18,7 +18,8 @@
     </a>
 @else
     <div class="col-span-2 md:col-span-1">
-        <img src="{{ $src }}" alt="{{ $alt }}" class="w-full h-auto transition-slow">
+        <img src="{{ $src }}" alt="{{ $alt }}"
+            class="w-full h-auto transition-slow aspect-square object-cover object-top">
         @if (isset($title) || isset($subtitle))
             <div class="mt-5">
                 @isset($title)
