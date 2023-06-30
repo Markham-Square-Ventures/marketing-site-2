@@ -6,7 +6,7 @@ author: Nick Basile
 author_url: https://www.linkedin.com/in/nickbasile/
 date: 2023-06-29
 header_url: /assets/images/posts/how-to-gather-useful-user-feedback/hero.webp
-header_alt: The Earth from space at night.
+header_alt: A cave with a bunch of people standing in it.
 published: true
 seo_description: Discover effective strategies for conducting user interviews, gain insights from storytelling, and learn the art of asking questions to get genuine feedback.
 ---
