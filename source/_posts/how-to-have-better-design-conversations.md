@@ -1,7 +1,7 @@
 ---
 extends: _layouts.post
 title: How to have better design conversations
-description: Use this tips to have better conversations
+description: Use these tips to have better conversations
 author: Matt Basile
 author_url: https://www.linkedin.com/in/matthewbasile2/
 date: 2023-07-21
