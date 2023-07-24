@@ -42,7 +42,7 @@
                     <ul class="col-span-2">
                         <li
                             class="text-neutral-800 font-light -tracking-[1px] leading-[32px] text-5 py-4 border-b-[0.5px] border-neutral-300">
-                            Exellence in everything
+                            Excellence in everything
                             <span class="text-neutral-600">
                                 – we set a high bar for quality in all things to achieve the best results possible
                             </span>
