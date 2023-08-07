@@ -5,3 +5,8 @@
 
 [functions]
         node_bundler = "esbuild"
+
+[[redirects]]
+    from = "/blog"
+    to = "https://digitalproductbasics.com/?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=nav"
+    status = 301
