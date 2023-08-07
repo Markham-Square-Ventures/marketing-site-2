@@ -8,5 +8,48 @@
 
 [[redirects]]
     from = "/blog"
-    to = "https://digitalproductbasics.com/?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=nav"
+    to = "https://digitalproductbasics.com/?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
     status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/why-mvps-are-worth-your-time"
+    to = "https://digitalproductbasics.com/articles/why-mvps-are-worth-your-time?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/how-to-have-better-design-conversations"
+    to = "https://digitalproductbasics.com/articles/how-to-have-better-design-conversations?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/when-to-use-nocode-over-custom-code"
+    to = "https://digitalproductbasics.com/articles/when-to-use-nocode-over-custom-code?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/how-to-gather-useful-user-feedback"
+    to = "https://digitalproductbasics.com/articles/how-to-gather-useful-user-feedback?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/how-to-build-a-marketing-enging-for-your-business"
+    to = "https://digitalproductbasics.com/articles/how-to-build-a-marketing-engine-for-your-business?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/whats-the-problem-with-websites-today"
+    to = "https://digitalproductbasics.com/articles/whats-the-problem-with-websites-today?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
+
+[[redirects]]
+    from = "/blog/why-talking-to-users-is-a-must-for-every-product-team"
+    to = "https://digitalproductbasics.com/articles/why-talking-to-users-is-a-must-for-every-product-team?utm_campaign=mksq&utm_source=markhamsquare.com&utm_medium=redirect"
+    status = 301
+    force=true
